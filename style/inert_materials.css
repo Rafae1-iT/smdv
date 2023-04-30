@@ -1,0 +1,94 @@
+.inert_materials {
+    width: 100vw;
+    height: 70vh;
+    background-image: url(../img/inert-bg.png);
+    background-position: center center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    border: solid 2px transparent;
+}
+.inert_materials_heading {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 2vw;
+    margin-top: 3vh;
+}
+
+.inert_materials_heading span {
+    border-bottom: 3px solid #FFAE22;
+    padding-bottom: 7px;
+}
+
+.inert_materials_tabel {
+    width: 42vw;
+    height: 49vh;
+    /* border: solid 2px red; */
+    margin: 0 auto;
+    margin-top: 6vh;
+}
+
+.inert_materials_chapers {
+    width: 100%;
+    height: 7vh;
+    background: linear-gradient(90.04deg, #FFD953 0.04%, #F3AE36 70.95%);
+    border-radius: 8px 8px 0px 0px;
+}
+
+.inert_materials_chapers_container {
+    width: 80%;
+    margin: 0 auto;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    line-height: 7vh;
+}
+
+.inert_materials_name {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1vw;
+}
+.inert_materials_price {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1vw;
+}
+
+.inert_materials_content {
+    width: 100%;
+    height: 42vh;
+    /* border: solid 1px black; */
+    overflow-y: auto;
+}
+.inert_materials_tabel_line {
+    width: 100%;
+    height: 6vh;
+    box-sizing: border-box;
+    border-bottom: solid 2px #e6e6e6;
+}
+.inert_materials_tabel_line_container {
+    width: 80%;
+    height: 6vh;
+    display: flex;
+    margin-left: 8%;
+    box-sizing: border-box;
+    border-bottom: solid 2px #e6e6e6;
+    justify-content: space-between;
+    line-height: 6vh;
+    /* border: solid 2px red; */
+}
+.inert_name {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 1.1vw;
+}
+.inert_price {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 1.1vw;
+}

@@ -1,0 +1,218 @@
+.concrete_delivery {
+    width: 100%;
+    height: 115vh;
+
+    background-image: url(../img/bg-3.png);
+    background-position: center center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.concrete_delivery_heading {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+.concrete_delivery_heading span {
+    border-bottom: 3px solid #FFAE22;
+    padding-bottom: 7px;
+}
+
+.concrete_delivery_txt {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 0.85vw;
+    color: #5B5B5B;
+    margin-top: 1.5%;
+}
+
+.delivery_cards {
+    width: 65%;
+    margin: 0 auto;
+    height: 50vh;
+    margin-top: 3%;
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.delivery_card {
+    width: 20vw;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.delivery_card_2 {
+    height: 88%;
+    align-self: flex-end;
+}
+
+.delivery_card_3 {
+    height: 93%;
+    align-self: flex-end;
+}
+
+.meters {
+    width: 100%;
+    height: 13%;
+    background: linear-gradient(180deg, #FFC700 0%, #FFA200 65.1%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price_container {
+    width: 100%;
+    height: 93%;
+    border-bottom: solid 3px #D9D9D9;
+    border-left: solid 3px #D9D9D9;
+    border-right: solid 3px #D9D9D9;
+    border-top: solid 3px #FFA200;
+    box-sizing: border-box;
+    border-bottom-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+}
+
+.meters_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+sup {
+    font-size: 1vw;
+}
+
+.flight_price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 1.2vw;
+
+    margin-top: 3%;
+}
+
+.flight_price span {
+    border-bottom: 2px #D9D9D9 solid; 
+}
+
+.flight_texts {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.flight_text {
+    width: 90%;
+    display: flex;
+    text-align: left;
+    margin-top: 3%;
+}
+
+.flight {
+    width: 80%;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 0.8vw;
+
+    color: #5B5B5B;
+}
+.fl_prise {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 0.85vw;
+
+    color: #5B5B5B;
+}
+
+.flight_price span span {
+    border-top: 2px #D9D9D9 solid; 
+}
+
+.price_time {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1%;
+    color:#5B5B5B;
+    font-size: 1vw;
+}
+
+.price_downtime {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1%;
+    color:#5B5B5B;
+    font-size: 1vw;
+}
+
+.delivery_txt {
+    width: 100%;
+    font-size: 1.5vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    font-family: 'Ubuntu';
+    font-weight: 700;
+
+    margin-top: 4%;
+}
+
+.adress {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.note_1 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 0.8vw;
+    color: #5B5B5B;
+}
+
+.note_2 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 0.9vw;
+    color: #FFA201;
+    margin-top: 1%;
+}

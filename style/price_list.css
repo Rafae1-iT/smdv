@@ -1,0 +1,269 @@
+.price_list {
+    width: 100%;
+    height: 77vh;
+    background-image: url(../img/price_bg.png);
+    background-position: center center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.price_list_heading {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+.price_list_heading span {
+    border-bottom: 3px solid #FFAE22;
+
+}
+
+.price_list_txt {
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 0.85vw;
+    color: #5B5B5B;
+    margin-top: 1%;
+}
+
+.tabel {
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 3vh;
+}
+
+.chapters {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: 6vh;
+}
+
+.chapter {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    width: 18%;
+
+    opacity: 0.8;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.85vw;
+
+    cursor: pointer;
+}
+.chapter_concrete {
+    background: linear-gradient(180deg, #FF8540 29.17%, #FFB36D 100%);
+}
+.chapter_polystyrene {
+    background: linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%);
+}
+.chapter_solution {
+    background: linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%);
+}
+.chapter_vermiculite {
+    background: linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%);
+}
+.chapter_claydite_concrete{
+    background: linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%);
+}
+
+.tabel_names {
+    width: 100%;
+    height: 6vh;
+    background: linear-gradient(90.04deg, #FFD953 0.04%, #F3AE36 70.95%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.names_tabel {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    width: 15%;
+
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 0.85vw;
+}
+
+.names_tabel_1 {
+    width: 25%;
+}
+
+.tabel_columns {
+    height: 30vh;
+    width: 100%;
+    position: relative;
+}
+
+.tabel_columns_concrete {
+    height: 30vh;
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    display: block;
+}
+
+.tabel_column_concrete {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 6vh;
+    border-bottom: #E6E6E6 solid 3px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 0.85vw;
+}
+
+.tabel_columns_polystyrene {
+    height: 30vh;
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    display: none;
+}
+.tabel_column_polystyrene {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 6vh;
+    border-bottom: #E6E6E6 solid 3px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 0.85vw;
+}
+
+.tabel_columns_solution {
+    height: 30vh;
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    display: none;
+}
+.tabel_column_solution {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 6vh;
+    border-bottom: #E6E6E6 solid 3px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 0.85vw;
+}
+
+.tabel_columns_vermiculite {
+    height: 30vh;
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    display: none;
+}
+.tabel_column_vermiculite {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 6vh;
+    border-bottom: #E6E6E6 solid 3px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 0.85vw;
+}
+
+.tabel_columns_claydite_concrete {
+    height: 30vh;
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    display: none;
+}
+.tabel_column_claydite_concrete {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 6vh;
+    border-bottom: #E6E6E6 solid 3px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 0.85vw;
+}
+
+.tabel_row_cell {
+    width: 15%;
+}
+.tabel_column_1 {
+    width: 25%;
+}
+
+.tabel_row_cell_button {
+    width: 12%;
+    height: 3vh;
+    margin-right: 1%;
+}
+
+.tabel_row_cell_button button {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    border: none;
+    background: linear-gradient(180deg, #FFCD77 0%, #FFAE22 47.92%, rgba(255, 174, 34, 0.89) 100%);
+    border-radius: 7px;
+
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 0.7vw;
+    text-align: center;
+    color: #000000;
+
+    cursor: pointer;
+}
+
+.download_button {
+    margin: 0 auto;
+    width: 17%;
+    margin-top: 7vh;
+    height: 5vh;
+}
+
+.download_button button {
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    background: linear-gradient(180deg, #FED852 0%, #FFB32D 79.53%);
+    border-radius: 21px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.1vw;
+    font-weight: 700;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    border: none;
+}

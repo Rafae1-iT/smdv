@@ -1,0 +1,13 @@
+footer {
+    width: 100vw;
+    height: 16vh;
+    background: #212121;
+    text-align: center;
+    color: white;
+    padding-top: 3.5vh;
+    font-size: 1vw;
+}
+footer div {
+    width: 100vw;
+    height: 2vh;
+}
