@@ -35,6 +35,7 @@
 .cards {
     width: 100%;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 5vh;
     /* border: solid 2px red; */
@@ -130,12 +131,12 @@
 }
 
 .products_and_services_button {
-    width: 13vw;
+    width: 80%;
     height: 6vh;
     position: absolute;
     bottom: 0;
     margin-bottom: 2vh;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 .products_and_services_button button {
     width: 100%;
@@ -181,4 +182,156 @@
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
+}
+
+/* adaptive */
+
+@media screen and (max-width: 1400px) {
+    .products_and_services_container {
+        width: 70%;
+    }
+    .card {
+        width: 20vw;
+    }
+    .card_info {
+        font-size: 1vw;
+    }
+    .list {
+        font-size: 1vw;
+    }
+    .line {
+        margin-top: 0;
+    }
+    .products_and_services_button button {
+        font-size: 1.1vh;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .card {
+        height: 34vh;
+    }
+    .products_and_services_heading {
+        font-size: 2.7vw;
+        text-align: justify;
+        text-align: center;
+        text-align-last: left;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .products_and_services_container {
+        width: 80%;
+    }
+    .card {
+        width: 24vw;
+    }
+    .line {
+        height: 7vh;
+    }
+    .products_and_services_heading {
+        font-size: 2.9vw;
+    }
+    .list {
+        font-size: 1.2vw;
+    }
+    .products_and_services_text {
+        font-size: 1.2vw;
+    }
+}
+@media screen and (max-width: 850px) {
+    .products_and_services_container {
+        width: 90%;
+    }
+    .card {
+        width: 28vw;
+    }
+    .card_heading {
+        font-size: 2.5vw;
+    }
+    .card_info {
+        font-size: 1.6vw;
+    }
+    .type_name {
+        font-size: 1.4vw;
+    }
+    .list {
+        font-size: 1.4vw;
+    }
+}
+@media screen and (max-width: 700px) {
+    .line {
+        height: 5vh;
+    }
+}
+@media screen and (max-width: 600px) {
+    .line {
+        display: none;
+    }
+    .products_and_services_heading_txt {
+        margin: 0 auto; 
+    }
+    .products_and_services_heading_txt br {
+        display: none;
+    }
+    .products_and_services_heading_txt span {
+        border-bottom: 3px solid #FFAE22;
+    }
+    .products_and_services_container {
+        width: 75%;
+    }
+    .products_and_services {
+        height: 135vh;
+    }
+    .card {
+        width: 33vw;
+        height: 30vh;
+    }
+    .list {
+        font-size: 1.7vw;
+    }
+    .products_and_services_heading {
+        font-size: 4vw;
+    }
+}
+@media screen and (max-width: 480px) {
+    .products_and_services_container {
+        width: 85%;
+    }
+    .card {
+        width: 40vw;
+        height: 32vh;
+    }
+    .card_heading {
+        font-size: 3vw;
+    }
+    .card_info {
+        font-size: 2.3vw;
+    }
+    .type_name {
+        font-size: 1.9vw;
+    }
+    .price {
+        font-size: 2vw;
+    }
+    .list {
+        font-size: 2.2vw;
+    }
+    .products_and_services_text {
+        font-size: 2vw;
+    }
+    .products_and_services_button button {
+        font-size: 0.7vh;
+    }
+    .products_and_services_button {
+        height: 4vh;
+    }
+}
+@media screen and (min-height: 1000px) {
+    .line {
+        height: 6vh;
+    }
+}
+@media screen and (min-height: 1300px) {
+    .line {
+        height: 4vh;
+    }
 }
