@@ -45,12 +45,13 @@
 
 .delivery_card {
     width: 20vw;
-    height: 100%;
+    height: 93%;
     border-radius: 15px;
+    align-self: flex-end;
 }
 
 .delivery_card_2 {
-    height: 88%;
+    height: 93%;
     align-self: flex-end;
 }
 

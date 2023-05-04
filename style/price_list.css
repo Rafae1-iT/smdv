@@ -267,3 +267,81 @@
     cursor: pointer;
     border: none;
 }
+
+@media screen and (max-width: 1024px) {
+    .tabel {
+        width: 70vw;
+    }
+    .tabel_column_concrete {
+        font-size: 1.2vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    .price_list_txt {
+        font-size: 1.3vw;
+    }
+}
+@media screen and (max-width: 750px) {
+    .tabel {
+        width: 80vw;
+    }
+    .chapters {
+        width: 100%;
+    }
+    .chapter {
+        font-size: 1.4vw;
+    }
+    .names_tabel {
+        font-size: 1.5vw;
+    }
+    .tabel_column_concrete {
+        font-size: 1.5vw;
+    }
+    .tabel_row_cell_button button {
+        font-size: 1.2vw;
+    }
+    .tabel_column_polystyrene {
+        font-size: 1.5vw;
+    }
+    .tabel_column_solution {
+        font-size: 1.5vw;
+    }
+    .tabel_column_vermiculite {
+        font-size: 1.5vw;
+    }
+    .tabel_column_claydite_concrete {
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width: 500px) {
+    .tabel {
+        width: 90vw;
+    }
+    .price_list_txt {
+        font-size: 2vw;
+    }
+    .chapter {
+        font-size: 1.7vw;
+    }
+    .names_tabel {
+        font-size: 1.8vw;
+    }
+    .tabel_column_concrete {
+        font-size: 2vw;
+    }
+    .tabel_row_cell_button button {
+        font-size: 1.5vw;
+    }
+    .tabel_column_polystyrene {
+        font-size: 2vw;
+    }
+    .tabel_column_solution {
+        font-size: 2vw;
+    }
+    .tabel_column_vermiculite {
+        font-size: 2vw;
+    }
+    .tabel_column_claydite_concrete {
+        font-size: 2vw;
+    }
+}

@@ -32,3 +32,28 @@
 
     font-size: 1.1vw;
 }
+@media screen and (max-height: 630px) {
+    .map_container {
+        height: 90vh;
+    }
+}
+@media screen and (max-height: 550px) {
+    .map_container {
+        height: 100vh;
+    }
+}
+@media screen and (max-height: 490px) {
+    .map_container {
+        height: 110vh;
+    }
+}
+@media screen and (max-height: 450px) {
+    .map_container {
+        height: 120vh;
+    }
+}
+@media screen and (max-height: 400px) {
+    .map_container {
+        height: 130vh;
+    }
+}

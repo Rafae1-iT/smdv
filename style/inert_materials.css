@@ -92,3 +92,60 @@
     font-weight: 400;
     font-size: 1.1vw;
 }
+
+@media screen and (max-width: 1300px) {
+    .inert_materials_tabel {
+        width: 52vw;
+    }
+}
+@media screen and (max-width: 900px) {
+    .inert_materials_tabel {
+        width: 72vw;
+    }
+    .inert_materials_name {
+        font-size: 1.5vw;
+    }
+    .inert_materials_price {
+        font-size: 1.5vw;
+    }
+    .inert_name {
+        font-size: 1.6vw;
+    }
+    .inert_price {
+        font-size: 1.6vw;
+    }
+}
+@media screen and (max-width: 480px) {
+    .inert_materials_tabel {
+        width: 82vw;
+    }
+    .inert_materials_name {
+        font-size: 2.4vw;
+    }
+    .inert_materials_price {
+        font-size: 2.4vw;
+    }
+    .inert_name {
+        font-size: 2.5vw;
+    }
+    .inert_price {
+        font-size: 2.5vw;
+    }
+}
+@media screen and (min-height: 1150px) {
+    .inert_materials_tabel {
+        width: 82vw;
+    }
+    .inert_materials_name {
+        font-size: 2.4vw;
+    }
+    .inert_materials_price {
+        font-size: 2.4vw;
+    }
+    .inert_name {
+        font-size: 2.5vw;
+    }
+    .inert_price {
+        font-size: 2.5vw;
+    }
+}
