@@ -13,6 +13,9 @@ const tabel_columns_vermiculite = document.querySelector(".tabel_columns_vermicu
 const chapter_claydite_concrete = document.querySelector(".chapter_claydite_concrete");
 const tabel_columns_claydite_concrete = document.querySelector(".tabel_columns_claydite_concrete");
 
+const chapter_fbs = document.querySelector(".chapter_fbs");
+const tabel_columns_fbs = document.querySelector(".tabel_columns_fbs");
+
 chapter_concrete.addEventListener("click", function() {
     this.style.background = "linear-gradient(180deg, #FF8540 29.17%, #FFB36D 100%)";
     tabel_columns_concrete.style.display = "block";
@@ -28,6 +31,9 @@ chapter_concrete.addEventListener("click", function() {
 
     chapter_claydite_concrete.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
     tabel_columns_claydite_concrete.style.display = "none";
+
+    chapter_fbs.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
+    tabel_columns_fbs.style.display = "none";
 }); 
 
 chapter_polystyrene.addEventListener("click", function() {
@@ -45,6 +51,9 @@ chapter_polystyrene.addEventListener("click", function() {
 
     chapter_claydite_concrete.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
     tabel_columns_claydite_concrete.style.display = "none";
+
+    chapter_fbs.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
+    tabel_columns_fbs.style.display = "none";
 });
 
 chapter_solution.addEventListener("click", function() {
@@ -62,6 +71,9 @@ chapter_solution.addEventListener("click", function() {
 
     chapter_claydite_concrete.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
     tabel_columns_claydite_concrete.style.display = "none";
+
+    chapter_fbs.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
+    tabel_columns_fbs.style.display = "none";
 });
 
 chapter_vermiculite.addEventListener("click", function() {
@@ -79,6 +91,9 @@ chapter_vermiculite.addEventListener("click", function() {
 
     chapter_claydite_concrete.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
     tabel_columns_claydite_concrete.style.display = "none";
+
+    chapter_fbs.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
+    tabel_columns_fbs.style.display = "none";
 });
 
 chapter_claydite_concrete.addEventListener("click", function() {
@@ -96,6 +111,30 @@ chapter_claydite_concrete.addEventListener("click", function() {
 
     chapter_vermiculite.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
     tabel_columns_vermiculite.style.display = "none";
+
+    chapter_fbs.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
+    tabel_columns_fbs.style.display = "none";
+});
+
+chapter_fbs.addEventListener("click", function() {
+    this.style.background = "linear-gradient(180deg, #FF8540 29.17%, #FFB36D 100%)";
+    tabel_columns_fbs.style.display = "block";
+
+    chapter_concrete.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
+    tabel_columns_concrete.style.display = "none";
+
+    chapter_polystyrene.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
+    tabel_columns_polystyrene.style.display = "none";
+
+    chapter_solution.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
+    tabel_columns_solution.style.display = "none";
+
+    chapter_vermiculite.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
+    tabel_columns_vermiculite.style.display = "none";
+    
+    chapter_claydite_concrete.style.background = "linear-gradient(180deg, #FFC544 31.25%, #FFE385 100%)";
+    tabel_columns_claydite_concrete.style.display = "none";
+
 });
 
 function downloadFile() {
