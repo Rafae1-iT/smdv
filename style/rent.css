@@ -28,18 +28,9 @@
 }
 
 .rent_button {
-    width: 28vw;
     height: 60vh;
     margin-left: 55vw;
     margin-top: 2vh;
-    /* border: 1px solid red;
-
-    background-image: url(../img/rent_button.png);
-    background-size:100% 100%;
-    background-position: center center;  
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box; */
     display: flex;
 }
 
@@ -74,58 +65,46 @@
 }
 
 .rent_block_1 {
-    width: 10vw;
-    height: 22vh;
-    border: 1px solid transparent;
+    width: 9vw;
+    height: 20vh;
     margin-top: 19vh;
     margin-left: 2vw;
 
     text-align: center;
 
-    background-image: url(../img/notes.png);
-    background-size:100% 100%;
-    background-position: center center;  
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
+    background: linear-gradient(180deg, #FFD954 0%, #FFB738 99.99%, #FFA200 100%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 .rent_block_2 {
     margin-left: 2vw;
 }
 
 .rent_block_2_1 {
-    width: 10vw;
-    height: 22vh;
-    border: 1px solid transparent;
+    width: 9vw;
+    height: 20vh;
     margin-top: 3vh;
     text-align: center;
 
-    background-image: url(../img/notes.png);
-    background-size:100% 100%;
-    background-position: center center;  
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
+    background: linear-gradient(180deg, #FFD954 0%, #FFB738 99.99%, #FFA200 100%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 
 }
 
 .rent_block_2_2 {
-    width: 10vw;
-    height: 22vh;
-    border: 1px solid transparent;
+    width: 9vw;
+    height: 20vh;
     margin-top: 12vh;
     text-align: center;
 
-    background-image: url(../img/notes.png);
-    background-size:100% 100%;
-    background-position: center center;  
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
+    background: linear-gradient(180deg, #FFD954 0%, #FFB738 99.99%, #FFA200 100%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
 }
 
 .rent_volume {
-    margin-top: 4vh;
+    padding-top: 4vh;
     font-family: 'Ubuntu';
     font-weight: 700;
     font-size: 2vw;
@@ -186,3 +165,825 @@
     font-size: 1.2vw;
     color: #5f5f5f;
 }
+
+
+@media (max-width: 2000px) and (max-height: 1400px) {
+    .rent_block_1 {
+        width: 11vw;
+    }
+    .rent_block_2_1 {
+        width: 11vw;
+    }
+    .rent_block_2_2 {
+        width: 11vw;
+    }
+}
+@media (max-width: 1700px) and (max-height: 1400px) {
+    .rent_block_1 {
+        width: 13vw;
+    }
+    .rent_block_2_1 {
+        width: 13vw;
+    }
+    .rent_block_2_2 {
+        width: 13vw;
+    }
+    .rent_volume {
+        font-size: 3vw;
+    }
+    .rent_price {
+        font-size: 1.6vw;
+    }
+    .rent_btn {
+        font-size: 1vw;
+    }
+}
+@media (max-width: 1400px) and (max-height: 1400px) {
+    .rent_block_1 {
+        width: 15vw;
+    }
+    .rent_block_2_1 {
+        width: 15vw;
+    }
+    .rent_block_2_2 {
+        width: 15vw;
+    }
+}
+@media (max-width: 1200px) and (max-height: 1400px) {
+    .rent_block_1 {
+        width: 17vw;
+    }
+    .rent_block_2_1 {
+        width: 17vw;
+    }
+    .rent_block_2_2 {
+        width: 17vw;
+    }
+    .rent_volume {
+        font-size: 3.7vw;
+    }
+    .rent_volume sup {
+        font-size: 2vw;
+    }
+    .rent_price {
+        font-size: 2.1vw;
+    }
+    .rent_btn {
+        font-size: 1.5vw;
+    }
+    .rent_white_spot span {
+        font-size: 2vw;
+    }
+    .rent_white_spot span span {
+        font-size: 1.7vw;
+    }
+    .rent_text {
+        width: 30vw;
+    }
+    .rent_text_1 {
+        font-size: 2vw;;
+    }
+    .rent_text_2 {
+        margin-left: 0;
+        font-size: 2vw;
+    }
+}
+@media (max-width: 1000px) and (max-height: 1400px) {
+    .rent_block_1 {
+        width: 19vw;
+    }
+    .rent_block_2_1 {
+        width: 19vw;
+    }
+    .rent_block_2_2 {
+        width: 19vw;
+    }
+}
+@media (max-width: 900px) and (max-height: 1400px) {
+    .rent {
+        height: 120vh;
+    }
+    .rent_main {
+        height: 120vh;
+    }
+    .rent_block_1 {
+        height: 17vh;
+    }
+    .rent_block_2_1 {
+        height: 17vh;
+    }
+    .rent_block_2_2 {
+        height: 17vh;
+    }
+    .rent_white_spot {
+        margin-top: 5vh;
+    }
+}
+@media (max-width: 800px) and (max-height: 1400px) {
+    .rent_block_1 {
+        height: 15vh;
+    }
+    .rent_block_2_1 {
+        height: 15vh;
+    }
+    .rent_block_2_2 {
+        height: 15vh;
+    }
+    .rent_button {
+        margin-left: 53vw;
+    }
+    .rent_block_2 {
+        margin-left: 5vw;
+    }
+    .rent_volume {
+        font-size: 4.7vw;
+    }
+    .rent_price {
+        font-size: 3vw;
+    }
+    .rent_btn {
+        font-size: 2vw;
+    }
+}
+@media (max-width: 750px) and (max-height: 1400px) {
+    .rent {
+        background-image: url(../img/bg-rent-600.png);
+    }
+    .rent_button {
+        width: 65vw;
+        height: 60vh;
+        margin: 0 auto;
+        margin-top: 5vh;
+        display: flex;
+    }
+    .rent_block_1 {
+        width: 27vw;
+        height: 18vh;
+    }
+    .rent_block_2_1 {
+        width: 27vw;
+        height: 18vh;
+    }
+    .rent_block_2_2 {
+        width: 27vw;
+        height: 18vh;
+    }
+    .rent_white_spot {
+        width: 70vw;
+        height: 23vh;
+        margin-top: 5vh;
+        margin: 0 auto;
+    }
+    .rent_white_spot span {
+        font-size: 3.2vw;
+    }
+    .rent_white_spot span span {
+        font-size: 2.8vw;
+    }
+    .rent_text {
+        width: 60vw;
+        height: 15vh;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .rent_text_1 {
+        font-size: 3.2vw;
+    }
+    .rent_text_2 {
+        margin-top: 3vh;
+        font-size: 3vw;
+    }
+    .rent_volume {
+        font-size: 7vw;
+    }
+    .rent_volume sup {
+        font-size: 4vw;
+    }
+    .rent_price {
+        font-size: 4vw;
+    }
+    .rent_btn {
+        font-size: 3vw;
+    }
+}
+@media (max-width: 550px) and (max-height: 1400px) {
+    .rent_button {
+        width: 80vw;
+    }
+    .rent_block_1 {
+        width: 35vw;
+    }
+    .rent_block_2_1 {
+        width: 35vw;
+    }
+    .rent_block_2_2 {
+        width: 35vw;
+    }
+    .rent_white_spot {
+        width: 80vw;
+    }
+    .rent_white_spot span {
+        font-size: 3.7vw;
+    }
+    .rent_white_spot span span {
+        font-size: 3.4vw;
+    }
+    .rent_text_1 {
+        font-size: 4.5vw;
+    }
+    .rent_text_2 {
+        font-size: 4vw;
+    }
+}
+@media (max-width: 450px) and (max-height: 1400px) {
+    .rent {
+        height: 105vh;
+    }
+    .rent_main {
+        height: 105vh;
+    }
+    .rent_block_1 {
+        height: 16vh;
+    }
+    .rent_block_2_1 {
+        height: 16vh;
+    }
+    .rent_block_2_2 {
+        height: 16vh;
+    }
+    .rent_button {
+        height: 50vh;
+    }
+}
+@media (max-width: 450px) and (max-height: 800px) {
+    .rent_button {
+        height: 60vh;
+    }
+}
+@media (max-width: 800px) and (max-height: 1200px) {
+    .rent_block_1 {
+        height: 17vh;
+    }
+    .rent_block_2_1 {
+        height: 17vh;
+    }
+    .rent_block_2_2 {
+        height: 17vh;
+    }
+}
+@media (max-width: 750px) and (max-height: 1200px) {
+    .rent_block_1 {
+        height: 22vh;
+    }
+    .rent_block_2_1 {
+        height: 22vh;
+    }
+    .rent_block_2_2 {
+        height: 22vh;
+    }
+}
+@media (max-width: 550px) and (max-height: 1200px) {
+    .rent_block_1 {
+        height: 18vh;
+    }
+    .rent_block_2_1 {
+        height: 18vh;
+    }
+    .rent_block_2_2 {
+        height: 18vh;
+    }
+}
+@media (max-width: 400px) and (max-height: 1200px) {
+    .rent_button {
+        width: 90vw;
+    }
+    .rent_block_1 {
+        width: 40vw;
+    }
+    .rent_block_2_1 {
+        width: 40vw;
+    }
+    .rent_block_2_2 {
+        width: 40vw;
+    }
+}
+@media (max-width: 350px) and (max-height: 1200px) {
+    .rent_block_1 {
+        height: 16vh;
+    }
+    .rent_block_2_1 {
+        height: 16vh;
+    }
+    .rent_block_2_2 {
+        height: 16vh;
+    }
+}
+@media (max-width: 900px) and (max-height: 1100px) {
+    .rent_volume {
+        padding-top: 3vh;
+    }
+}
+
+@media (max-width: 1500px) and (max-height: 1000px) {
+    .rent_block_1 {
+        width: 10.5vw;
+    }
+    .rent_block_2_1 {
+        width: 10.5vw;
+    }
+    .rent_block_2_2 {
+        width: 10.5vw;
+    }
+}
+@media (max-width: 1300px) and (max-height: 1000px) {
+    .rent_block_1 {
+        width: 11vw;
+    }
+    .rent_block_2_1 {
+        width: 11vw;
+    }
+    .rent_block_2_2 {
+        width: 11vw;
+    }
+}
+@media (max-width: 1200px) and (max-height: 1000px) {
+    .rent_block_1 {
+        width: 12vw;
+    }
+    .rent_block_2_1 {
+        width: 12vw;
+    }
+    .rent_block_2_2 {
+        width: 12vw;
+    }
+    .rent_volume {
+        font-size: 2.5vw;
+    }
+    .rent_volume sup{
+        font-size: 1.8vw;
+    }
+    .rent_price {
+        font-size: 1.6vw;
+    }
+}
+@media (max-width: 1200px) and (max-height: 1000px) {
+    .rent_block_1 {
+        width: 13vw;
+    }
+    .rent_block_2_1 {
+        width: 13vw;
+    }
+    .rent_block_2_2 {
+        width: 13vw;
+    }
+}
+@media (max-width: 950px) and (max-height: 1000px) {
+    .rent_block_1 {
+        width: 15vw;
+        height: 18vh;
+    }
+    .rent_block_2_1 {
+        width: 15vw;
+        height: 18vh;
+    }
+    .rent_block_2_2 {
+        width: 15vw;
+        height: 18vh;
+    }
+    .rent_white_spot span {
+        font-size: 1.7vw;
+    }
+    .rent_text_1 {
+        font-size: 1.5vw;
+    }
+    .rent_text_2 {
+        margin-left: 12vw;
+        font-size: 1.5vw;
+    }
+}
+@media (max-width: 800px) and (max-height: 1000px) {
+    .rent_block_1 {
+        width: 15vw;
+        height: 16vh;
+    }
+    .rent_block_2_1 {
+        width: 15vw;
+        height: 16vh;
+    }
+    .rent_block_2_2 {
+        width: 15vw;
+        height: 16vh;
+    }
+    .rent_white_spot span {
+        font-size: 1.85vw;
+    }
+    .rent_white_spot span span {
+        font-size: 1.5vw;
+    }
+    .rent_text_1 {
+        font-size: 1.7vw;
+    }
+    .rent_text_2 {
+        margin-left: 12vw;
+        font-size: 1.7vw;
+    }
+    .rent_volume {
+        font-size: 3vw;
+    }
+    .rent_price {
+        font-size: 2vw;
+    }
+    .rent_btn {
+        font-size: 1.35vw;
+    }
+}
+@media (max-width: 750px) and (max-height: 1000px) {
+    .rent_block_1 {
+        width: 17vw;
+        height: 17vh;
+    }
+    .rent_block_2_1 {
+        width: 17vw;
+        height: 17vh;
+    }
+    .rent_block_2_2 {
+        width: 17vw;
+        height: 17vh;
+    }
+}
+@media (max-width: 650px) and (max-height: 1000px) {
+    .rent_block_1 {
+        width: 18vw;
+        height: 15vh;
+    }
+    .rent_block_2_1 {
+        width: 18vw;
+        height: 15vh;
+    }
+    .rent_block_2_2 {
+        width: 18vw;
+        height: 15vh;
+    }
+    .rent_text {
+        width: 30vw;
+    }
+    .rent_text_1 {
+        font-size: 2vw;
+    }
+    .rent_text_2 {
+        font-size: 2vw;
+    }
+}
+@media (max-width: 600px) and (max-height: 1000px) {
+    .rent {
+        height: 135vh;
+        background-image: url(../img/bg-rent-600.png);
+    }
+    .rent_button {
+        width: 65%;
+        margin: 0 auto;
+        margin-top: 5vh;
+        display: flex;
+    }
+    .rent_block_1 {
+        width: 26vw;
+        height: 18vh;
+    }
+    .rent_block_2_1 {
+        width: 26vw;
+        height: 18vh;
+    }
+    .rent_block_2_2 {
+        width: 26vw;
+        height: 18vh;
+    }
+    .rent_block_2 {
+        margin-left: 10vw;
+    }
+    .rent_white_spot {
+        width: 70vw;
+        height: 23vh;
+        margin: 0 auto;
+        display: flex;
+    }
+    .rent_white_spot span {
+        font-size: 2.8vw;
+    }
+    sup {
+        font-size: 2vw;
+    }
+    .rent_white_spot span span {
+        font-size: 2.5vw;
+    }
+    .rent_text {
+        width: 70vw;
+        height: 15vh;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .rent_text_1 {
+        font-size: 3vw;
+    }
+    .rent_text_2 {
+        margin: 0 auto;
+        font-size: 3vw;
+        margin-top: 2vh;
+    }
+    .rent_volume {
+        font-size: 6vw;
+    }
+    .rent_volume sup {
+        font-size: 3vw;
+    }
+    .rent_price {
+        font-size: 3vw;
+    }
+    .rent_btn {
+        font-size: 2vw;
+    }
+}
+@media (max-width: 550px) and (max-height: 1000px) {
+    .rent {
+        height: 115vh;
+    }
+    .rent_main {
+        height: 115vh;
+    }
+}
+@media (max-width: 450px) and (max-height: 1000px) {
+    .rent_button {
+        width: 85%;
+    }
+    .rent_block_1 {
+        width: 30vw;
+        height: 18vh;
+    }
+    .rent_block_2_1 {
+        width: 30vw;
+        height: 18vh;
+    }
+    .rent_block_2_2 {
+        width: 30vw;
+        height: 18vh;
+    }
+}
+@media (max-width: 900px) and (max-height: 800px) {
+    .rent_block_1 {
+        height: 21vh;
+    }
+    .rent_block_2_1 {
+        height: 21vh;
+    }
+    .rent_block_2_2 {
+        height: 21vh;
+    }
+    .rent_btn {
+        font-size: 1.2vw;
+    }
+}
+@media (max-width: 700px) and (max-height: 800px) {
+    .rent_volume {
+        font-size: 4vw;
+    }
+    .rent_price {
+        font-size: 2.5vw;
+    }
+    .rent_btn {
+        font-size: 1.4vw;
+    }
+}
+@media (max-width: 600px) and (max-height: 800px) { 
+    .rent_btn {
+        font-size: 1.7vw;
+    }
+    .rent_block_1 {
+        width: 24vw;
+    }
+    .rent_block_2_1 {
+        width: 24vw;
+    }
+    .rent_block_2_2 {
+        width: 24vw;
+    }
+}
+@media (max-width: 500px) and (max-height: 800px) { 
+    .rent_btn {
+        font-size: 1.9vw;
+    }
+    .rent_block_1 {
+        width: 26vw;
+    }
+    .rent_block_2_1 {
+        width: 26vw;
+    }
+    .rent_block_2_2 {
+        width: 26vw;
+    }
+    .rent_volume {
+        font-size: 6vw;
+    }
+    .rent_price {
+        font-size: 3.5vw;
+    }
+}
+@media (max-width: 450px) and (max-height: 800px) { 
+    .rent_block_1 {
+        width: 27vw;
+    }
+    .rent_block_2_1 {
+        width: 27vw;
+    }
+    .rent_block_2_2 {
+        width: 27vw;
+    }
+    .rent_button {
+        width: 65%;
+    }
+}
+@media (max-width: 400px) and (max-height: 800px) { 
+    .rent_block_1 {
+        width: 29vw;
+    }
+    .rent_block_2_1 {
+        width: 29vw;
+    }
+    .rent_block_2_2 {
+        width: 29vw;
+    }
+    .rent_button {
+        width: 75%;
+    }
+}
+@media (max-width: 350px) and (max-height: 800px) { 
+    .rent_block_1 {
+        width: 29vw;
+        height: 18vh;
+    }
+    .rent_block_2_1 {
+        width: 29vw;
+        height: 18vh;
+    }
+    .rent_block_2_2 {
+        width: 29vw;
+        height: 18vh;
+    }
+    .rent_button {
+        width: 75%;
+    }
+    .rent {
+        height: 115vh;
+    }
+    .rent_main {
+        height: 115vh;
+    }
+}
+@media (max-width: 300px) and (max-height: 800px) {
+    .rent_block_1 {
+        width: 34vw;
+    }
+    .rent_block_2_1 {
+        width: 34vw;
+    }
+    .rent_block_2_2 {
+        width: 34vw;
+    }
+    .rent_button {
+        width: 85%;
+    }
+}
+@media (max-width: 1500px) and (max-height: 600px) {
+    .rent {
+        height: 170vh;
+    }
+    .rent_main {
+        height: 170vh;
+    }
+    .rent_button {
+        height: 80vh;
+        margin-top: 4vh;
+    }
+    .rent_block_1 {
+        height: 30vh;
+    }
+    .rent_block_2_1 {
+        height: 30vh;
+    }
+    .rent_block_2_2 {
+        height: 30vh;
+    }
+    .rent_volume {
+        padding-top: 7vh;
+        font-size: 2vw;
+    }
+    .rent_btn {
+        margin-top: 4vh;
+    }
+    .rent_price {
+        margin-top: 2vh;
+    }
+}
+@media (max-width: 1000px) and (max-height: 600px) {
+    .rent_volume {
+        padding-top: 6vh;
+        font-size: 3vw;
+    }
+    .rent_btn {
+        font-size: 1.1vw;
+    }
+}
+@media (max-width: 600px) and (max-height: 600px) {
+    .rent_volume {
+        font-size: 5vw;
+    }
+    .rent_price {
+        font-size: 3vw;
+    }
+    .rent_btn {
+        font-size: 1.9vw;
+    }
+}
+@media (max-width: 450px) and (max-height: 600px) {
+    .rent {
+        height: 150vh;
+    }
+    .rent_main {
+        height: 150vh;
+    }
+    .rent_block_1 {
+        height: 27vh;
+    }
+    .rent_block_2_1 {
+        height: 27vh;
+    }
+    .rent_block_2_2 {
+        height: 27vh;
+    }
+}
+@media (max-width: 350px) and (max-height: 600px) {
+    .rent_block_1 {
+        height: 25vh;
+        width: 32vw;
+    }
+    .rent_block_2_1 {
+        height: 25vh;
+        width: 32vw;
+    }
+    .rent_block_2_2 {
+        height: 25vh;
+        width: 32vw;
+    }
+    .rent_volume {
+        font-size: 7vw;
+    }
+    .rent_price {
+        font-size: 4vw;
+    }
+    .rent_btn {
+        font-size: 2.4vw;
+    }
+    
+}
+@media (max-width: 1400px) and (max-height: 500px) {
+    .rent {
+        height: 200vh;
+    }
+    .rent_main {
+        height: 200vh;
+    }
+    .rent_block_1 {
+        height: 35vh;
+    }
+    .rent_block_2_1 {
+        height: 35vh;
+    }
+    .rent_block_2_2 {
+        height: 35vh;
+    }
+}
+@media (max-width: 600px) and (max-height: 500px) {
+    .rent_button {
+        height: 95vh;
+    }
+    .rent {
+        height: 180vh;
+    }
+    .rent_main {
+        height: 180vh;
+    }
+}
+@media (max-width: 350px) and (max-height: 500px) {
+    .rent {
+        height: 160vh;
+    }
+    .rent_main {
+        height: 160vh;
+    }
+}
+/* @media (max-width: 1400px) and (max-height: 450px) {
+    .rent {
+        height: 160vh;
+    }
+    .rent_main {
+        height: 160vh;
+    }
+} */
