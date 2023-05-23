@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    height: 10vh;
+    height: 100px;
     margin-top: 0px;
     background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 48.87%, #F3F0EA 142.09%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -9,14 +9,13 @@
     display: flex;
     width: 85%;
     margin-left: 4%;
-    height: 10vh;
-    /* border: solid 2px green; */
+    height: 100px;
 }
 
 .logo {
     margin-top: 1vh;
-    width: 8%;
-    height: 8vh;
+    width: 100px;
+    height: 80px;
     margin-right: 5%;
     cursor: pointer;
 }
@@ -33,32 +32,38 @@
 }
 
 .hn {
-    /* border: black 1px solid; */
     text-align: center;
-    height: 10vh;
+    height: 100px;
 }
 
 .link {
     width: 100%;
-    height: 6vh;
-    margin: 2vh auto;
-    line-height: 6vh;
+    height: 100%;
+    line-height: 100px;
     font-size: 0.96vw;
 }
 .link a {
     color: #444444;
     display: inline-block;
 }
-.link a:after {
-    display: block; /*превращаем его в блочный элемент*/ 
-    content: ""; /*контента в данном блоке не будет поэтому в кавычках ничего не ставим*/
-    height: 4px; /*задаём высоту линии*/
-    width: 0%; /*задаём начальную ширину элемента (линии)*/
-    background-color: #FBAD17;; /*цвет фона элемента*/
-    transition: width 0.4s ease-in-out; /*данное свойство отвечает за плавное изменение ширины. Здесь можно задать время анимации в секундах (в данном случае задано 0.4 секунды)*/
-    margin-top: -12px;
+
+
+@media screen and (max-width: 1300px) {
+    .link {
+        font-size: 1.2vw;
+    }
 }
-.link a:hover:after,
-.link a:focus:after {
-width: 100%;
+@media screen and (max-width: 1000px) {
+    .nav {
+        display: none;
+    }
+    .header_navigation {
+        display: flex;
+        width: 95%;
+        margin-left: 0;
+        justify-content: space-between;
+    }
+    .logo {
+        margin-left: 50px;
+    }
 }
