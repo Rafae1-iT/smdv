@@ -45,19 +45,8 @@
 
 .delivery_card {
     width: 20vw;
-    height: 93%;
+    height: 100%;
     border-radius: 15px;
-    /* align-self: flex-end; */
-}
-
-.delivery_card_2 {
-    height: 93%;
-    /* align-self: flex-end; */
-}
-
-.delivery_card_3 {
-    height: 93%;
-    /* align-self: flex-end; */
 }
 
 .meters {
@@ -73,7 +62,7 @@
 }
 .price_container {
     width: 100%;
-    height: 93%;
+    height: 87%;
     border-bottom: solid 3px #D9D9D9;
     border-left: solid 3px #D9D9D9;
     border-right: solid 3px #D9D9D9;
@@ -119,17 +108,17 @@ sup {
     margin-top: 3%;
 }
 .flight_text {
-    width: 90%;
+    width: 100%;
     display: flex;
     text-align: left;
     margin-top: 3%;
+    font-size: 0.8vw;
 }
 
 .flight {
     width: 80%;
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 0.8vw;
 
     color: #5B5B5B;
 }
@@ -141,7 +130,6 @@ sup {
 
     font-family: 'Ubuntu';
     font-weight: 400;
-    font-size: 0.85vw;
 
     color: #5B5B5B;
 }
@@ -218,376 +206,63 @@ sup {
     margin-top: 1%;
 }
 
-@media (min-height: 700px) and (max-width: 1100px){
-    .price_container {
-        height: 73%;
+@media screen and (max-width: 1700px) and (max-height: 1000px) {
+    .flight_text {
+        font-size: 0.95vw;
     }
-    .delivery_txt {
-        margin-top: 0;
+    .price_time {
+        font-size: 1.2vw;
+    }
+    .price_downtime {
+        font-size: 1.2vw;
+    }
+    .note_1 {
+        font-size: 1vw;
+    }
+    .note_2 {
+        font-size: 1.25vw;
+    }
+}
+@media screen and (max-width: 1600px) and (max-height: 1000px) {
+    .concrete_delivery {
+        height: 105vh;
+    }
+    .delivery_cards {
+        height: 45vh;
+    }
+}
+@media screen and (max-width: 1500px) and (max-height: 1000px) {
+    .flight_price {
+        margin-top: 6%;
+    }
+}
+@media screen and (max-width: 1300px) and (max-height: 1000px) {
+    .adress {
+        width: 35%;
+        font-size: 1.3vw;
+    }
+    .note_1 {
+        font-size: 1.3vw;
+    }
+    .note_2 {
+        font-size: 1.5vw;
+    }
+    .delivery_cards {
+        height: 400px;
     }
     .concrete_delivery {
         height: 100vh;
     }
-    .delivery_cards {
-        margin-top: 2%;
-    }
 }
-@media (min-height: 700px) and (max-width: 850px){
+@media screen and (max-width: 1200px) and (max-height: 1000px) {
     .delivery_cards {
-        width: 75%;
-    }
-    .delivery_card {
-        width: 23vw;
-    }
-    .concrete_delivery_txt {
-        margin-top: 2%;
-        font-size: 1vw;
-    }
-    .flight_price {
-        font-size: 1.5vw;
-    }
-    .flight {
-        font-size: 1vw;
-    }
-    .fl_prise {
-        font-size: 1vw;
-    }
-    .price_downtime {
-        font-size: 1.5vw;
-    }
-    .price_time {
-        font-size: 1.5vw;
-    }
-    .adress {
-        width: 40%;
-        font-size: 1.4vw;
-    }
-    .note_1 {
-        font-size: 1.2vw;
-    }
-    .note_2 {
-        font-size: 1.2vw;
-    }
-    .delivery_txt {
-        font-size: 1.8vw;
-    }
-    .download_button {
-        width: 30%;
-    }
-    .download_button button {
-        font-size: 1.8vw;
-    }
-}
-@media (min-height: 700px) and (max-width: 650px) {
-    .delivery_cards {
-        width: 85%;
-    }
-    .delivery_card {
-        width: 27vw;
-    }
-    .meters_text {
-        font-size: 2.8vw;
-    }
-    .flight_texts {
-        width: 95%;
-        margin-top: 5%;
-    }
-    .flight {
-        font-size: 1.25vw;
-    }
-    .fl_prise {
-        font-size: 1.25vw;
-    }
-    .flight_price {
-        margin-top: 5%;
-    }
-    .delivery_txt {
-        font-size: 2.2vw;
-    }
-    .adress {
-        width: 50%;
-        font-size: 1.9vw;
-    }
-    .note_1 {
-        font-size: 1.6vw;
-    }
-    .note_2 {
-        font-size: 1.6vw;
-    }
-    .download_button button {
-        font-size: 1.7vw;
-    }
-    .concrete_delivery_txt {
-        margin-top: 4%;
-        font-size: 1.5vw;
-    }
-    .download_button {
-        width: 35%;
-    }
-    .download_button button {
-        font-size: 2vw;
-    }
-}
-
-@media (min-height: 700px) and (max-width: 550px) {
-    .concrete_delivery {
-        height: 135vh;
-    }
-    .delivery_cards {
-        width: 75%;
-        flex-wrap: wrap;
-        height: 85vh;
-    }
-    .delivery_card {
-        width: 33vw;
-    }
-    .delivery_card_2 {
-        height: 43vh;
-    }
-    .delivery_card_3 {
-        height: 43vh;
-    }
-    .delivery_card_5 {
-        height: 43vh;
-        margin: 0 auto;
-    }
-    sup {
-        font-size: 1.8vw;
-    }
-    .download_button {
-        width: 40%;
-    }
-    .download_button button {
-        font-size: 2.2vw;
-    }
-}
-
-@media (min-height: 700px) and (max-width: 450px) {
-    .concrete_delivery {
-        height: 185vh;
-    }
-    .delivery_cards {
-        width: 43%;
-        height: 135vh;
-    }
-    .delivery_card {
-        width: 43vw;
-    }
-    .flight_price {
-        font-size: 2.5vw;
-    }
-    .flight {
-        font-size: 2vw;
-    }
-    .fl_prise {
-        font-size: 2vw;
-    }
-    .price_time {
-        font-size: 3vw;
-    }
-    .price_downtime {
-        font-size: 3vw;
-    }
-    .delivery_card_2 {
-        height: 46vh;
-    }
-    .delivery_card_3 {
-        height: 46vh;
-    }
-    .delivery_card_5 {
-        height: 46vh;
-    }
-    .delivery_txt {
-        font-size: 2.5vw;
-    }
-    .adress {
-        width: 75%;
-        font-size: 2.7vw;
-    }
-    .note_1 {
-        font-size: 2vw;
-    }
-    .note_2 {
-        font-size: 2.2vw;
-    }
-    .concrete_delivery_txt {
-        margin-top: 6%;
-        font-size: 2.5vw;
-        margin-bottom: 6%;
-    }
-    .download_button {
-        width: 45%;
-    }
-    .download_button button {
-        font-size: 2.5vw;
-    }
-}
-@media (min-height: 700px) and (max-width: 400px) {
-    .delivery_cards {
-        width: 50%;
-        height: 140vh;
-    }
-    .delivery_card {
-        width: 50vw;
-    }
-    .flight {
-        font-size: 2.3vw;
-    }
-    .fl_prise {
-        font-size: 2.3vw;
-    }
-    .delivery_card_2 {
-        height: 48vh;
-    }
-    .delivery_card_3 {
-        height: 48vh;
-    }
-    .delivery_card_5 {
-        height: 48vh;
-    }
-    .download_button {
-        width: 45%;
-    }
-    .download_button button {
-        font-size: 2.5vw;
-    }
-}
-
-@media (min-height: 700px) and (max-width: 350px) {
-    .delivery_cards {
-        width: 60%;
-        height: 145vh;
-    }
-    .delivery_card {
-        width: 60vw;
-    }
-    .flight {
-        font-size: 2.8vw;
-    }
-    .fl_prise {
-        font-size: 2.8vw;
-    }
-    .flight_price {
-        font-size: 2.8vw;
-    }
-    .price_time {
-        font-size: 3.6vw;
-    }
-    .price_downtime {
-        font-size: 3.6vw;
-    }
-    .delivery_txt {
-        font-size: 2.8vw;
-    }
-    .adress {
         width: 80%;
-        font-size: 2.9vw;
-    }
-    .note_1 {
-        font-size: 2.5vw;
-    }
-    .download_button {
-        width: 45%;
-    }
-    .download_button button {
-        font-size: 2.5vw;
-    }
-}
-
-@media (min-height: 750px) and (min-width: 600px) and (max-width: 1000px) {
-    .concrete_delivery {
-        height: 110vh;
-    }
-    .delivery_cards {
-        height: 70vh;
-        width: 55%;
-        flex-wrap: wrap;
-    }
-    .delivery_card {
-        height: 35vh;
-        width: 27vw;
-    }
-    .delivery_card_5 {
-        margin: 0 auto;
-    }
-    .meters_text {
-        font-size: 2vw;
-    }
-    .meters_text sup {
-        font-size: 1.5vw;
-    }
-    .flight_price {
-        font-size: 1.5vw;
-    }
-    .flight_texts {
-        width: 90%;
-    }
-    .flight {
-        font-size: 1.2vw;
-    }
-    .fl_prise {
-        font-size: 1.2vw;
-    }
-    .price_time {
-        font-size: 1.8vw;
-    }
-    .price_downtime {
-        font-size: 1.8vw;
-    }
-    .delivery_txt {
-        font-size: 2.2vw;
-    }
-    .adress {
-        width: 50%;
-        font-size: 1.6vw;
-    }
-    .note_1 {
-        font-size: 1.3vw;
-    }
-    .note_2 {
-        font-size: 1.1vw;
-    }
-}
-
-
-@media (min-height: 450px) and (max-height: 699px) and (max-width: 1500px) {
-    .concrete_delivery {
-        height: 180vh;
-        margin-top: 5%;
-    }
-    .delivery_cards {
-        height: 80vh;
-    }
-}
-@media (min-height: 450px) and (max-height: 699px) and (max-width: 1100px) {
-    .delivery_cards {
-        height: 65vh;
-    }
-}
-@media (min-height: 450px) and (max-height: 699px) and (max-width: 850px) {
-    .concrete_delivery {
-        height: 145vh;
-    }
-    .meters_text {
-        font-size: 2vw;
-    }
-    .meters_text sup {
-        font-size: 1.5vw;
-    }
-    .flight_price {
-        font-size: 1.5vw;
-    }
-    .delivery_cards {
-        width: 75%;
     }
     .delivery_card {
         width: 24vw;
     }
-    .flight {
-        font-size: 1vw;
-    }
-    .fl_prise {
-        font-size: 1vw;
+    .flight_text {
+        font-size: 1.1vw;
     }
     .price_time {
         font-size: 1.5vw;
@@ -595,579 +270,234 @@ sup {
     .price_downtime {
         font-size: 1.5vw;
     }
-    .delivery_txt {
-        font-size: 2vw;
+    .concrete_delivery {
+        height: 90vh;
     }
-    .adress {
-        width: 40%;
+    .meters_text {
+        font-size: 2.3vw;
+    }
+    sup {
         font-size: 1.5vw;
     }
-    .note_1 {
-        font-size: 1.3vw;
-    }
-    .note_2 {
-        font-size: 1.4vw;
-    }
-    .concrete_delivery_txt {
-        font-size: 1.2vw;
-    }
-    .download_button {
-        width: 20%;
-    }
-    .download_button button {
-        font-size: 1.4vw;
-    }
+    
 }
-@media (min-height: 450px) and (max-height: 699px) and (max-width: 750px) {
-    .concrete_delivery_txt {
-        margin-top: 3%;
-    }
-    .delivery_cards {
-        width: 85%;
-    }
-    .delivery_card {
-        width: 27vw;
-    }
-    .flight {
-        font-size: 1.15vw;
-    }
-    .fl_prise {
-        font-size: 1.15vw;
+
+@media screen and (max-width: 1000px) and (max-height: 1000px) {
+    .concrete_delivery {
+        height: 140vh;
     }
     .delivery_cards {
         flex-wrap: wrap;
+        height: 850px;
+        width: 60%;
     }
     .delivery_card {
-        width: 35vw;
+        height: 400px;
+        width: 29vw;
     }
-    .delivery_card_5 {
+    .card_3 {
         margin: 0 auto;
     }
-    .delivery_cards {
-        width: 75%;
-    }
-    .delivery_card_2 {
-        height: 55vh;
-        align-self: flex-start;
-    }
-    .delivery_card_3 {
-        height: 55vh;
-        align-self: flex-start;
-    }
-    .delivery_card_5 {
-        height: 55vh;
-        align-self: flex-start;
-    }
-    .delivery_cards {
-        height: 125vh;
-    }
-    .concrete_delivery {
-        height: 200vh;
-    }
-    .flight {
-        font-size: 1.5vw;
-    }
-    .fl_prise {
-        font-size: 1.5vw;
-    }
-    .price_time {
-        font-size: 1.8vw;
-    }
-    .price_downtime {
-        font-size: 1.8vw;
-    }
-    .adress {
-        width: 50%;
-        font-size: 2vw;
-    }
-    .note_1 {
-        font-size: 1.5vw;
-    }
-    .note_2 {
-        font-size: 1.6vw;
-    }
-    .download_button {
-        width: 23%;
-    }
-    .download_button button {
-        font-size: 1.55vw;
-    }
-}
-@media (min-height: 450px) and (max-height: 699px) and (max-width: 500px) {
-    .concrete_delivery {
-        height: 255vh;
-    }
-    .delivery_cards {
-        width: 43%;
-    }
-    .delivery_card {
-        width: 43vw;
-        height: 57vh;
-    }
-    .delivery_cards {
-        height: 190vh;
-    }
-    .concrete_delivery_txt {
-        font-size: 1.8vw;
-        margin-top: 4%;
-    }
-    .meters_text {
-        font-size: 4vw;
-    }
-    .meters_text sup {
-        font-size: 3vw;
-    }
-    .flight_price {
-        font-size: 2.5vw;
-    }
-    .flight {
-        font-size: 1.84vw;
-    }
-    .fl_prise {
-        font-size: 1.84vw;
-    }
-    .price_time {
-        font-size: 2.5vw;
-    }
-    .price_downtime {
-        font-size: 2.5vw;
-    }
-}
-@media (min-height: 450px) and (max-height: 699px) and (max-width: 450px) {
-    .delivery_cards {
-        width: 50%;
-    }
-    .delivery_card {
-        width: 50vw;
-    }
-    .flight {
-        font-size: 2.1vw;
-    }
-    .fl_prise {
-        font-size: 2.1vw;
-    }
-    .delivery_txt {
-        font-size: 2.6vw;
-    }
-    .adress {
-        width: 75%;
-        font-size: 2.7vw;
-    }
-    .note_1 {
-        font-size: 2.2vw;
-    }
-    .note_2 {
-        font-size: 2.2vw;
-    }
-    .download_button {
-        width: 30%;
-    }
-    .download_button button {
-        font-size: 2vw;
-    }
-}
-@media (min-height: 450px) and (max-height: 699px) and (max-width: 350px) {
-    .delivery_cards {
-        width: 60%;
-    }
-    .delivery_card {
-        width: 60vw;
-    }
-    .flight {
-        font-size: 2.5vw;
-    }
-    .fl_prise {
-        font-size: 2.5vw;
-    }
-    .flight_price {
-        font-size: 3vw;
-    }
-    .price_time {
-        font-size: 3.3vw;
-    }
-    .price_downtime {
-        font-size: 3.3vw;
-    }
-    .delivery_txt {
-        font-size: 2.6vw;
-    }
-    .adress {
-        width: 75%;
-        font-size: 2.7vw;
-    }
-    .note_1 {
-        font-size: 2.2vw;
-    }
-    .note_2 {
-        font-size: 2.2vw;
-    }
-    .download_button {
-        width: 40%;
-    }
-    .download_button button {
-        font-size: 2.5vw;
-    }
-    .concrete_delivery_txt {
-        font-size: 2.2vw;
-        margin-top: 6%;
-    }
-}
-@media (min-height: 450px) and (max-height: 699px) and (max-width: 300px) {
-    .delivery_card {
-        height: 45vh;
-    }
-    .delivery_cards {
-        height: 160vh;
-    }
-    .concrete_delivery {
-        height: 220vh;
-    }
-}
-/* ------------------------------ */
-@media (min-height: 550px) and (max-height: 699px) and (max-width: 1300px) {
-    .delivery_card {
-        height: 60vh;
-    }
-    .delivery_cards {
-        height: 70vh;
-    }
-    .concrete_delivery {
-        height: 155vh;
-    }
-}
-@media (min-height: 550px) and (max-height: 699px) and (max-width: 1150px) {
-    .delivery_card {
-        height: 55vh;
-    }
-    .delivery_cards {
-        height: 65vh;
-    }
-    .concrete_delivery {
-        height: 145vh;
-    }
-}
-@media (min-height: 550px) and (max-height: 699px) and (max-width: 1050px) {
-    .delivery_card {
-        height: 50vh;
-    }
-    .delivery_cards {
-        height: 60vh;
-    }
-    .concrete_delivery {
-        height: 135vh;
-    }
-}
-@media (min-height: 550px) and (max-height: 699px) and (max-width: 950px) {
-    .concrete_delivery {
-        height: 120vh;
-    }
-    .delivery_cards {
-        height: 50vh;
-        width: 75%;
-    }
-    .delivery_card {
-        height: 50vh;
-        width: 23vw;
-    }
-    .meters_text {
-        font-size: 2vw;
-    }
-    .meters_text sup {
-        font-size: 1.4vw;
-    }
-    .concrete_delivery_txt {
-        font-size: 1.3vw;
-    }
     .flight_price {
         font-size: 1.5vw;
-    }
-    .flight {
-        font-size: 1vw;
-    }
-    .fl_prise {
-        font-size: 1vw;
     }
     .flight_text {
-        width: 95%;
-    }
-    .price_time {
-        font-size: 1.5vw;
-    }
-    .price_downtime {
-        font-size: 1.5vw;
-    }
-}
-@media (min-height: 550px) and (max-height: 699px) and (max-width: 850px) {
-    .concrete_delivery {
-        height: 120vh;
-    }
-    .delivery_cards {
-        height: 55vh;
-    }
-    .delivery_card {
-        height: 50vh;
-    }
-    .delivery_card_2 {
-        align-self: flex-start;
-    }
-    .delivery_card_3 {
-        align-self: flex-start;
-    }
-    .delivery_card_5 {
-        align-self: flex-start;
-    }
-}
-@media (min-height: 550px) and (max-height: 699px) and (max-width: 750px) {
-    .delivery_cards {
-        height: 125vh;
-    }
-    .concrete_delivery {
-        height: 200vh;
-    }
-    .delivery_card {
-        width: 35vw;
-    }
-    .flight {
-        font-size: 1.5vw;
-    }
-    .fl_prise {
-        font-size: 1.5vw;
-    }
-}
-@media (min-height: 550px) and (max-height: 699px) and (max-width: 600px) {
-    .delivery_cards {
-        height: 110vh;
-    }
-    .delivery_card {
-        height: 45vh;
-    }
-    .concrete_delivery {
-        height: 175vh;
-    }
-    .concrete_delivery_txt {
-        font-size: 1.8vw;
-    }
-}
-@media (min-height: 550px) and (max-height: 699px) and (max-width: 550px) {
-    .delivery_cards {
-        height: 105vh;
-    }
-    .delivery_card {
-        height: 45vh;
-    }
-    .concrete_delivery {
-        height: 165vh;
-    }
-    .concrete_delivery_txt {
-        font-size: 1.8vw;
+        font-size: 1.35vw;
     }
     .delivery_txt {
-        font-size: 2.4vw;
+        font-size: 2vw;
     }
     .adress {
-        width: 60%;
-        font-size: 2.3vw;
+        width: 45%;
+        font-size: 1.7vw;
     }
     .note_1 {
-        font-size: 1.8vw;
+        font-size: 1.4vw;
     }
     .note_2 {
+        font-size: 1.7vw;
+    }
+}
+@media screen and (max-width: 850px) and (max-height: 1000px) {
+    .delivery_cards {
+        width: 70%;
+    }
+    .delivery_card {
+        width: 33vw;
+    }
+    .meters_text {
+        font-size: 3vw;
+    }
+    sup {
         font-size: 2vw;
+    }
+    .flight_price {
+        font-size: 1.8vw;
+    }
+    .flight_text {
+        font-size: 1.55vw;
+    }
+    .price_time {
+        font-size: 2vw;
+    }
+    .price_downtime {
+        font-size: 2vw;
+    }
+    .note_1 {
+        width: 95%;
+        margin: 0 auto;
+        font-size: 1.7vw;
     }
     .download_button {
         width: 30%;
     }
-    .download_button :no-button {
-        font-size: 1.9vw;
+    .download_button button {
+        font-size: 1.7vw;
     }
 }
-@media (min-height: 550px) and (max-height: 699px) and (max-width: 500px) {
+
+@media screen and (max-width: 700px) and (max-height: 1000px) {
     .delivery_cards {
-        height: 155vh;
+        width: 80%;
     }
     .delivery_card {
-        height: 47vh;
+        width: 37vw;
     }
-    .concrete_delivery {
-        height: 210vh;
-    }
-    .concrete_delivery_txt {
-        font-size: 1.5vw;
-    }
-    .delivery_cards {
-        height: 95vh;
-    }
-    .delivery_card {
-        height: 40vh;
-    }
-    .concrete_delivery {
-        height: 160vh;
-    }
-    .meters_text {
-        font-size: 3vw;
-    }
-    .meters_text sup {
-        font-size: 2.4vw;
+    .flight_text {
+        font-size: 1.74vw;
     }
     .flight_price {
+        font-size: 2.3vw;
+    }
+    .price_time {
+        font-size: 2.5vw;
+    }
+    .price_downtime {
+        font-size: 2.5vw;
+    }
+    .delivery_txt {
+        font-size: 2.5vw;
+    }
+    .adress {
+        width: 56%;
+        font-size: 2.2vw;
+    }
+    .note_1 {
         font-size: 2vw;
     }
-    .price_time {
-        font-size: 2.3vw;
-    }
-    .price_downtime {
-        font-size: 2.3vw;
-    }
-}
-@media (min-height: 550px) and (max-height: 699px) and (max-width: 450px) {
-    .delivery_cards {
-        height: 160vh;
-        width: 40%;
-    }
-    .delivery_card {
-        height: 43vh;
-        width: 40vw;
-    }
-    .concrete_delivery {
-        height: 210vh;
-    }
-    .concrete_delivery_txt {
-        font-size: 1.5vw;
-    }
-    .delivery_cards {
-        height: 145vh;
+    .note_2 {
+        font-size: 2.1vw;
     }
     .meters_text {
+        font-size: 4vw;
+    }
+    sup {
         font-size: 3vw;
     }
+}
+
+@media screen and (max-width: 600px) and (max-height: 1000px) {
+    .concrete_delivery {
+        height: 130vh;
+    }
+    .delivery_cards {
+        height: 800;
+    }
+    .delivery_card {
+        height: 350px;
+    }
     .meters_text sup {
-        font-size: 2.4vw;
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 1000px) {
+    .concrete_delivery {
+        height: 190vh;
+    }
+    .delivery_cards {
+        width: 55%;
+        height: 1350px;
+    }
+    .delivery_card {
+        width: 55vw;
+        margin-bottom: 50px;
+        height: 400px;
+    }
+    .meters_text {
+        font-size: 6vw;
+    }
+    .meters_text sup {
+        font-size: 4vw;
     }
     .flight_price {
+        font-size: 3vw;
+    }
+    .flight_text {
         font-size: 2.5vw;
     }
     .price_time {
-        font-size: 2.7vw;
+        font-size: 3.5vw;
     }
     .price_downtime {
-        font-size: 2.7vw;
+        font-size: 3.5vw;
     }
-    .flight {
-        font-size: 1.8vw;
+    .delivery_txt {
+        font-size: 3.5vw;
     }
-    .fl_prise {
-        font-size: 1.8vw;
+    .adress {
+        width: 77%;
+        font-size: 3vw;
     }
-}
-@media (min-height: 550px) and (max-height: 699px) and (max-width: 400px) {
-    .delivery_cards {
-        height: 140vh;
+    .note_1 {
+        font-size: 2.75vw;
+    }
+    .note_2 {
+        font-size: 2.8vw;
+        margin-top: 5%;
+    }
+    .download_button {
         width: 50%;
     }
-    .delivery_card {
-        height: 38vh;
-        width: 50vw;
-    }
-    .concrete_delivery_txt {
-        font-size: 2.4vw;
-    }
-    .delivery_txt {
-        font-size: 2.8vw;
-    }
-    .adress {
-        width: 80%;
-        font-size: 3vw;
-    }
-    .note_1 {
-        font-size: 2.4vw;
-    }
-    .note_2 {
-        font-size: 2.2vw;
-    }
-    .concrete_delivery {
-        height: 190vh;
-    }
-    .meters_text {
-        font-size: 5vw;
-    }
-    .meters_text sup {
-        font-size: 4vw;
-    }
-    .flight_price {
-        font-size: 3vw;
-    }
-    .flight_texts {
-        width: 90%;
-    }
-    .flight {
-        font-size: 2.4vw;
-    }
-    .fl_prise {
-        font-size: 2.4vw;
+    .download_button button {
+        font-size: 2.7vw;
     }
 }
-@media (min-height: 550px) and (max-height: 699px) and (max-width: 350px) {
+@media screen and (max-width: 430px) and (max-height: 1000px) {
+    .concrete_delivery {
+        height: 200vh;
+    }
     .delivery_cards {
-        height: 160vh;
-        width: 60%;
-        margin-top: 6%;
+        width: 70%;
+        height: 1450px;
     }
     .delivery_card {
-        height: 46vh;
-        width: 60vw;
-    }
-    .concrete_delivery {
-        height: 218vh;
-    }
-    .concrete_delivery_txt {
-        font-size: 1.5vw;
-    }
-    .meters_text {
-        font-size: 5vw;
-    }
-    .meters_text sup {
-        font-size: 4vw;
+        width: 70vw;
+        height: 430px;
     }
     .flight_price {
-        font-size: 3.7vw;
+        font-size: 4vw;
+    }
+    .flight_text {
+        font-size: 3.3vw;
     }
     .price_time {
-        font-size: 3.4vw;
+        font-size: 4.5vw;
     }
     .price_downtime {
-        font-size: 3.4vw;
-    }
-    .flight {
-        font-size: 2.7vw;
-    }
-    .fl_prise {
-        font-size: 2.7vw;
-    }
-    .concrete_delivery_txt {
-        font-size: 2.5vw;
+        font-size: 4.5vw;
     }
     .delivery_txt {
-        font-size: 2.8vw;
+        font-size: 4.5vw;
     }
     .adress {
-        width: 80%;
-        font-size: 3vw;
+        width: 100%;
+        font-size: 3.9vw;
     }
     .note_1 {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
     .note_2 {
-        font-size: 2.2vw;
+        font-size: 3.8vw;
     }
 }
-@media (min-height: 550px) and (max-height: 699px) and (max-width: 300px) {
-    .delivery_cards {
-        height: 140vh;
-    }
-    .delivery_card {
-        height: 40vh;
-    }
-    .concrete_delivery {
-        height: 190vh;
-    }
-}
+
