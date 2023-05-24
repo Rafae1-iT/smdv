@@ -206,6 +206,11 @@ sup {
     margin-top: 1%;
 }
 
+@media screen and (min-width: 1850px) and (max-width: 2000px) and (max-height: 1000px) {
+    .concrete_delivery {
+        height: 130vh;
+    }
+}
 @media screen and (max-width: 1700px) and (max-height: 1000px) {
     .flight_text {
         font-size: 0.95vw;
@@ -255,6 +260,12 @@ sup {
     }
 }
 @media screen and (max-width: 1200px) and (max-height: 1000px) {
+    .concrete_delivery_heading {
+        font-size: 2.5vw;
+    }
+    .concrete_delivery_txt {
+        font-size: 1.2vw;
+    }
     .delivery_cards {
         width: 80%;
     }
@@ -283,6 +294,12 @@ sup {
 }
 
 @media screen and (max-width: 1000px) and (max-height: 1000px) {
+    .concrete_delivery_heading {
+        font-size: 2.8vw;
+    }
+    .concrete_delivery_txt {
+        font-size: 1.4vw;
+    }
     .concrete_delivery {
         height: 140vh;
     }
@@ -290,6 +307,7 @@ sup {
         flex-wrap: wrap;
         height: 850px;
         width: 60%;
+        margin-top: 6%;
     }
     .delivery_card {
         height: 400px;
@@ -319,6 +337,12 @@ sup {
     }
 }
 @media screen and (max-width: 850px) and (max-height: 1000px) {
+    .concrete_delivery_heading {
+        font-size: 3.5vw;
+    }
+    .concrete_delivery_txt {
+        font-size: 1.8vw;
+    }
     .delivery_cards {
         width: 70%;
     }
@@ -357,6 +381,15 @@ sup {
 }
 
 @media screen and (max-width: 700px) and (max-height: 1000px) {
+    .concrete_delivery_heading {
+        font-size: 4.5vw;
+    }
+    .concrete_delivery_txt {
+        font-size: 2vw;
+    }
+    .concrete_delivery_txt {
+        margin-top: 3.5%;
+    }
     .delivery_cards {
         width: 80%;
     }
@@ -463,8 +496,14 @@ sup {
     }
 }
 @media screen and (max-width: 430px) and (max-height: 1000px) {
+    .concrete_delivery_heading {
+        font-size: 7vw;
+    }
+    .concrete_delivery_txt {
+        font-size: 3vw;
+    }
     .concrete_delivery {
-        height: 200vh;
+        height: 210vh;
     }
     .delivery_cards {
         width: 70%;
@@ -500,4 +539,500 @@ sup {
         font-size: 3.8vw;
     }
 }
+@media screen and (max-width: 370px) and (max-height: 1000px) {
+    .delivery_cards {
+        height: 1275px;
+    }
+    .delivery_card {
+        height: 375px;
+    }
+    .concrete_delivery {
+        height: 180vh;
+    }
+    .download_button {
+        width: 70%;
+    }
+    .download_button button {
+        font-size: 3.5vw;
+    }
+    .note_1 {
+        font-size: 3.8vw;
+    }
+    .adress {
+        font-size: 3.8vw;
+    }
+}
+@media screen and (max-width: 330px) and (max-height: 1000px) {
+    .concrete_delivery_heading {
+        font-size: 8vw;
+    }
+    .concrete_delivery_txt {
+        font-size: 3.5vw;
+    }
+    .concrete_delivery_txt {
+        margin-top: 6.5%;
+    }
+    .delivery_card {
+        height: 340px;
+    }
+    .delivery_cards {
+        height: 1170px;
+    }
+    .concrete_delivery {
+        height: 170vh;
+    }
+}
+@media screen and (max-width: 300px) and (max-height: 1000px) {
+    .price_downtime {
+        margin-top: 7%;
+        font-size: 5vw;
+    }
+    .price_time {
+        margin-top: 5%;
+        font-size: 5vw;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 950px) {
+    .concrete_delivery {
+        height: 150vh;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 950px) {
+    .concrete_delivery {
+        height: 200vh;
+    }
+}
+@media screen and (max-width: 430px) and (max-height: 950px) {
+    .concrete_delivery {
+        height: 220vh;
+    }
+}
+@media screen and (max-width: 370px) and (max-height: 950px) {
+    .concrete_delivery {
+        height: 195vh;
+    }
+}
+@media screen and (max-width: 330px) and (max-height: 950px) {
+    .concrete_delivery {
+        height: 180vh;
+    }
+}
+@media screen and (min-width: 1900px) and (max-width: 2000px) and (min-height: 900px) {
+    .delivery_cards {
+        width: 65%;
+        margin: 0 auto;
+        height: 55vh;
+        margin-top: 3%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 1500px) and (min-height: 900px) {
+    .flight_price {
+        margin-top: 4%;
+    }
+}
+@media screen and (max-width: 1400px) and (min-height: 900px) {
+    .flight_price {
+        margin-top: 6%;
+    }
+}
+@media screen and (max-width: 1300px) and (max-height: 900px){
+    .concrete_delivery {
+        height: 110vh;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 900px){
+    .concrete_delivery {
+        height: 160vh;
+    }
+}
+@media screen and (max-width: 600px) and (max-height: 900px){
+    .concrete_delivery {
+        height: 150vh;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 900px){
+    .concrete_delivery {
+        height: 215vh;
+    }
+}
+@media screen and (max-width: 430px) and (max-height: 900px){
+    .concrete_delivery {
+        height: 235vh;
+    }
+}
+@media screen and (max-width: 370px) and (max-height: 900px){
+    .concrete_delivery {
+        height: 210vh;
+    }
+}
+@media screen and (max-width: 330px) and (max-height: 900px){
+    .concrete_delivery {
+        height: 190vh;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 2000px) and (max-height: 850px) {
+    .concrete_delivery {
+        height: 150vh;
+    }
+}
+@media screen and (min-width: 1300px) and (max-width: 2000px) and (min-height: 800px) and (max-height: 899px) {
+    .delivery_cards {
+        width: 65%;
+        margin: 0 auto;
+        height: 60vh;
+        margin-top: 3%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 1600px) and (max-height: 800px){
+    .concrete_delivery {
+        height: 135vh;
+    }
+}
+@media screen and (max-width: 1300px) and (max-height: 800px){
+    .concrete_delivery {
+        height: 125vh;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 800px){
+    .concrete_delivery {
+        height: 175vh;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 800px){
+    .concrete_delivery {
+        height: 240vh;
+    }
+}
+@media screen and (max-width: 430px) and (max-height: 800px){
+    .concrete_delivery {
+        height: 260vh;
+    }
+}
+@media screen and (max-width: 370px) and (max-height: 800px){
+    .concrete_delivery {
+        height: 230vh;
+    }
+}
+@media screen and (max-width: 370px) and (max-height: 800px){
+    .concrete_delivery {
+        height: 210vh;
+    }
+}
+
+@media screen and (max-width: 2000px) and (max-height: 799px){
+    .delivery_cards {
+        margin: 0 auto;
+        height: 500px;
+        margin-top: 3%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 1500px) and (max-height: 799px){
+    .delivery_cards {
+        margin: 0 auto;
+        height: 450px;
+        margin-top: 3%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 1300px) and (max-height: 799px){
+    .delivery_cards {
+        margin: 0 auto;
+        height: 400px;
+        margin-top: 3%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 799px){
+    .delivery_cards {
+        margin: 0 auto;
+        height: 850px;
+        margin-top: 3%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 799px) {
+    .delivery_cards {
+        height: 1450px;
+    }
+    .concrete_delivery {
+        height: 260vh;
+    }
+}
+@media screen and (max-width: 370px) and (max-height: 799px) {
+    .delivery_cards {
+        height: 1300px;
+    }
+    .concrete_delivery {
+        height: 235vh;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 750px) {
+    .concrete_delivery {
+        height: 275vh;
+    }
+}
+@media screen and (max-width: 370px) and (max-height: 750px) {
+    .concrete_delivery {
+        height: 250vh;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 2000px) and (max-height: 750px) {
+    .concrete_delivery {
+        height: 160vh;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 2000px) and (max-height: 700px) {
+    .concrete_delivery {
+        height: 180vh;
+    }
+}
+
+@media screen and (max-width: 1600px) and (max-height: 700px) {
+    .delivery_cards {
+        margin: 0 auto;
+        height: 450px;
+        margin-top: 3%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 1300px) and (max-height: 700px) {
+    .concrete_delivery {
+        height: 135vh;
+    }
+    .delivery_cards {
+        margin: 0 auto;
+        height: 400px;
+        margin-top: 3%;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 700px) {
+    .delivery_cards {
+        height: 900px;
+    }
+    .concrete_delivery {
+        height: 200vh;
+    }
+}
+@media screen and (max-width: 600px) and (max-height: 700px) {
+    .delivery_cards {
+        height: 850px;
+    }
+    .concrete_delivery {
+        height: 190vh;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 700px) {
+    .delivery_cards {
+        height: 1350px;
+    }
+    .concrete_delivery {
+        height: 270vh;
+    }
+}
+@media screen and (max-width: 430px) and (max-height: 700px) {
+    .delivery_cards {
+        height: 1500px;
+    }
+    .concrete_delivery {
+        height: 300vh;
+    }
+}
+@media screen and (max-width: 370px) and (max-height: 700px) {
+    .delivery_cards {
+        height: 1280px;
+    }
+    .concrete_delivery {
+        height: 260vh;
+    }
+}
+@media screen and (max-width: 330px) and (max-height: 700px) {
+    .delivery_cards {
+        height: 1200px;
+    }
+    .concrete_delivery {
+        height: 255vh;
+    }
+}
+@media screen and (min-width: 1600px) and (max-width: 2000px) and (max-height: 700px){
+    .concrete_delivery {
+        height: 195vh;
+    }
+}
+
+@media screen and (max-width: 1600px) and (max-height: 600px) {
+    .concrete_delivery {
+        height: 170vh;
+    }
+    .download_button {
+        width: 20%;
+        height: 8vh;
+    }
+}
+@media screen and (max-width: 1300px) and (max-height: 600px) {
+    .concrete_delivery {
+        height: 160vh;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 600px) {
+    .concrete_delivery {
+        height: 235vh;
+    }
+}
+@media screen and (max-width: 800px) and (max-height: 600px) {
+    .download_button {
+        width: 35%;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 600px) {
+    .concrete_delivery {
+        height: 315vh;
+    }
+}
+@media screen and (max-width: 430px) and (max-height: 600px) {
+    .concrete_delivery {
+        height: 345vh;
+    }
+}
+@media screen and (max-width: 370px) and (max-height: 600px) {
+    .concrete_delivery {
+        height: 305vh;
+    }
+    .download_button {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 330px) and (max-height: 600px) {
+    .concrete_delivery {
+        height: 285vh;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 2000px) and (max-height: 550px){
+    .concrete_delivery {
+        height: 215vh;
+    }
+}
+@media screen and (max-width: 1600px) and (max-height: 550px) {
+    .concrete_delivery {
+        height: 185vh;
+    }
+}
+@media screen and (max-width: 1300px) and (max-height: 550px) {
+    .concrete_delivery {
+        height: 170vh;
+    }
+}
+@media screen and (max-width: 1100px) and (max-height: 550px) {
+    .concrete_delivery {
+        height: 160vh;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 550px) {
+    .concrete_delivery {
+        height: 260vh;
+    }
+}
+@media screen and (max-width: 600px) and (max-height: 550px) {
+    .concrete_delivery {
+        height: 240vh;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 550px) {
+    .concrete_delivery {
+        height: 340vh;
+    }
+}
+@media screen and (max-width: 430px) and (max-height: 550px) {
+    .concrete_delivery {
+        height: 380vh;
+    }
+}
+@media screen and (max-width: 370px) and (max-height: 550px) {
+    .concrete_delivery {
+        height: 330vh;
+    }
+}
+@media screen and (max-width: 330px) and (max-height: 550px) {
+    .concrete_delivery {
+        height: 310vh;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 2000px) and (max-height: 500px){
+    .concrete_delivery {
+        height: 235vh;
+    }
+}
+@media screen and (max-width: 1600px) and (max-height: 500px) {
+    .concrete_delivery {
+        height: 205vh;
+    }
+}
+@media screen and (max-width: 1300px) and (max-height: 500px) {
+    .concrete_delivery {
+        height: 185vh;
+    }
+}
+@media screen and (max-width: 1100px) and (max-height: 500px) {
+    .concrete_delivery {
+        height: 175vh;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 500px) {
+    .concrete_delivery {
+        height: 275vh;
+    }
+}
+@media screen and (max-width: 600px) and (max-height: 500px) {
+    .concrete_delivery {
+        height: 255vh;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 500px) {
+    .concrete_delivery {
+        height: 375vh;
+    }
+}
+@media screen and (max-width: 430px) and (max-height: 500px) {
+    .concrete_delivery {
+        height: 415vh;
+    }
+}
+@media screen and (max-width: 370px) and (max-height: 500px) {
+    .concrete_delivery {
+        height: 360vh;
+    }
+}
+@media screen and (max-width: 330px) and (max-height: 500px) {
+    .concrete_delivery {
+        height: 340vh;
+    }
+}
+
+
+
+
+
+
 
