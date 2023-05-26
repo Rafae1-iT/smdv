@@ -1,0 +1,61 @@
+@media screen and (max-width: 1400px) and (max-height: 1500px) {
+    .header_size {
+        font-size: 3vw;
+    }
+    .line {
+        height: 0vh;
+    }
+    .price_list_txt {
+        font-size: 1.6vw;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 1500px) {
+    .header_size {
+        font-size: 4vw;
+    }
+    .price_list_txt {
+        font-size: 1.8vw;
+    }
+}
+@media screen and (max-width: 700px) and (max-height: 1500px) {
+    .header_size {
+        font-size: 6vw;
+    }
+    .price_list_txt {
+        font-size: 2.5vw;
+    }
+}
+@media screen and (max-width: 600px) and (max-height: 1500px) {
+    .header_size {
+        font-size: 6vw;
+    }
+    .price_list_txt {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 1200px) and (max-height: 1000px) {
+    .header_size {
+        font-size: 2.5vw;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 1000px) {
+    .header_size {
+        font-size: 2.8vw;
+    }
+}
+@media screen and (max-width: 800px) and (max-height: 1000px) {
+    .header_size {
+        font-size: 3.5vw;
+    }
+}
+@media screen and (max-width: 700px) and (max-height: 1000px) {
+    .header_size {
+        font-size: 4.5vw;
+    }
+}
+@media screen and (max-width: 430px) and (max-height: 1000px) {
+    .header_size {
+        font-size: 6vw;
+    }
+}

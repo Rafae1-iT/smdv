@@ -206,6 +206,537 @@ sup {
     margin-top: 1%;
 }
 
+@media screen and (max-width: 2000px) and (max-height: 1500px) {
+    .delivery_cards {
+        height: 500px;
+    }
+    .delivery_card {
+        height: 500px;
+    }
+    .concrete_delivery {
+        height: 85vh;
+    }
+    .meters_text {
+        font-size: 2vw;
+    }
+    sup {
+        font-size: 1.3vw;
+    }
+}
+@media screen and (max-width: 1900px) and (max-height: 1500px) {
+    .flight_texts {
+        width: 90%;
+    }
+    .flight_text {
+        font-size: 0.95vw;
+    }
+    .price_downtime {
+        font-size: 1.2vw;
+    }
+    .price_time {
+        font-size: 1.2vw;
+    }
+    .note_1 {
+        font-size: 1.2vw;
+    }
+    .note_2 {
+        font-size: 1.5vw;
+    }
+    .adress {
+        font-size: 1.2vw;
+    }
+}
+@media screen and (max-width: 1600px) and (max-height: 1500px) {
+    .delivery_cards {
+        height: 450px;
+    }
+    .delivery_card {
+        height: 450px;
+    }
+    .concrete_delivery {
+        height: 80vh;
+    }
+}
+@media screen and (max-width: 1400px) and (max-height: 1500px) {
+    .concrete_delivery {
+        height: 75vh;
+    }
+    .delivery_cards {
+        width: 75%;
+    }
+    .delivery_card {
+        width: 23vw;
+    }
+    .meters_text {
+        font-size: 3vw;
+    }
+    sup {
+        font-size: 2vw;
+    }
+    .flight_price {
+        font-size: 1.4vw;
+    }
+    .flight_text {
+        font-size: 1.1vw;
+    }
+    .price_time {
+        font-size: 1.5vw;
+    }
+    .price_downtime {
+        font-size: 1.5vw;
+    }
+    .delivery_card {
+        height: 475px;
+    }
+    .delivery_cards {
+        height: 475px;
+    }
+    .concrete_delivery_heading {
+        font-size: 3vw;
+    }
+    .concrete_delivery_txt {
+        font-size: 1.3vw;
+    }
+    .delivery_txt {
+        font-size: 1.8vw;
+    }
+    .adress {
+        width: 40%;
+        font-size: 1.5vw;
+    }
+    .note_1 {
+        font-size: 1.4vw;
+    }
+    .note_2 {
+        font-size: 1.8vw;
+    }
+    .download_button {
+        width: 30%;
+    }
+    .download_button button {
+        font-size: 1.6vw;
+    }
+    .concrete_delivery {
+        height: 80vh;
+    }
+}
+@media screen and (max-width: 1200px) and (max-height: 1500px) {
+    .delivery_cards {
+        width: 85%;
+    }
+    .delivery_card {
+        width: 27vw;
+    }
+    .flight_price {
+        font-size: 1.7vw;
+    }
+    .flight_text {
+        font-size: 1.35vw;
+    }
+    .price_time {
+        font-size: 1.9vw;
+        margin-top: 4%;
+    }
+    .price_downtime {
+        font-size: 1.9vw;
+    }
+    .delivery_card {
+        height: 500px;
+    }
+    .delivery_cards {
+        height: 500px;
+    }
+    .note_2 {
+        margin-top: 4%;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 1500px) and (min-height: 1001px)  {
+    .delivery_cards {
+        flex-wrap: wrap;
+        width: 75%;
+        height: 1140px;
+    }
+    .delivery_card {
+        width: 35vw;
+        height: 530px;
+        margin-top: 5%;
+    }
+    .card_3 {
+        margin: 0  auto;
+        margin-top: 50px;
+    }
+    .concrete_delivery {
+        height: 135vh;
+    }
+    .concrete_delivery_heading {
+        font-size: 4vw;
+    }
+    .concrete_delivery_txt {
+        font-size: 2vw;
+    }
+    .meters_text {
+        font-size: 4vw;
+    }
+    sup {
+        font-size: 2.6vw;
+    }
+    .flight_price {
+        font-size: 2vw;
+    }
+    .flight_text {
+        font-size: 1.7vw;
+    }
+    .price_time {
+        font-size: 2.5vw;
+    }
+    .price_downtime {
+        font-size: 2.5vw;
+    }
+    .delivery_txt {
+        font-size: 2.4vw;
+    }
+    .adress {
+        width: 61%;
+        font-size: 2.5vw;
+    }
+    .note_1 {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 2.2vw;
+    }
+    .note_2 {
+        font-size: 2.2vw;
+    }
+    .download_button {
+        width: 40%;
+    }
+    .download_button button {
+        font-size: 2.3vw;
+    }
+    
+}
+@media screen and (max-width: 850px) and (max-height: 1500px) {
+    .delivery_cards {
+        width: 85%;
+    }
+    .delivery_card {
+        width: 40vw;
+    }
+    .meters_text {
+        font-size: 5vw;
+    }
+    sup {
+        font-size: 3vw;
+    }
+    .flight_price {
+        font-size: 2.5vw;
+    }
+    .flight_text {
+        font-size: 2vw;
+    }
+    .concrete_delivery {
+        height: 130vh;
+    }
+    .delivery_txt {
+        margin-top: 8%;
+    }
+    .delivery_txt {
+        font-size: 2.7vw;
+    }
+    .adress {
+        width: 70%;
+        font-size: 2.7vw;
+    }
+}
+@media screen and (max-width: 750px) and (max-height: 1500px) {
+    .delivery_cars {
+        height: 500px;
+    }
+    .delivery_card {
+        height: 500px;
+    }
+    .price_downtime {
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 700px) and (max-height: 1500px) {
+    .card_3 {
+        margin-top: 0;
+    }
+    .delivery_cards {
+        width: 55%;
+        height: 1990px;
+    }
+    .delivery_card {
+        width: 55vw;
+        margin-bottom: 50px;
+    }
+    .concrete_delivery {
+        height: 200vh;
+    }
+    .concrete_delivery_heading {
+        font-size: 6vw;
+    }
+    .concrete_delivery_txt {
+        font-size: 3vw;
+    }
+    .concrete_delivery_txt {
+        margin-top: 4.5%;
+    }
+    .delivery_txt {
+        font-size: 3.3vw;
+    }
+    .adress {
+        width: 90%;
+        font-size: 3.5vw;
+    }
+    .note_1 {
+        width: 90%;
+        margin: 0 auto;
+        font-size: 3vw;
+    }
+    .note_2 {
+        font-size: 3vw;
+    }
+    .meters_text {
+        font-size: 6vw;
+    }
+    sup {
+        font-size: 4vw;
+    }
+    .flight_price {
+        font-size: 3.2vw;
+    }
+    .flight_text {
+        font-size: 2.75vw;
+    }
+    .price_time {
+        font-size: 3.5vw;
+    }
+    .price_downtime {
+        font-size: 3.5vw;
+    }
+    .delivery_card {
+        height: 610px;
+    }
+    .download_button {
+        width: 55%;
+    }
+    .download_button button {
+        font-size: 3.3vw;
+    }
+}
+@media screen and (max-width: 600px) and (max-height: 1500px) {
+    .concrete_delivery {
+        height: 210vh;
+    }
+    .delivery_cards {
+        width: 70%;
+        height: 2190px;
+    }
+    .delivery_card {
+        width: 70vw;
+        height: 670px;
+    }
+    .meters_text {
+        font-size: 8vw;
+    }
+    sup {
+        font-size: 5vw;
+    }
+    .concrete_delivery_heading {
+        font-size: 8vw;
+    }
+    .flight_price {
+        font-size: 4.2vw;
+    }
+    .flight_text {
+        font-size: 3.5vw;
+    }
+    .price_time {
+        font-size: 5vw;
+    }
+    .price_downtime {
+        font-size: 5vw;
+    }
+    .delivery_txt {
+        font-size: 4vw;
+    }
+    .adress {
+        width: 98%;
+        font-size: 4vw;
+    }
+    .note_2 {
+        width: 95%;
+        margin: 0  auto;
+        font-size: 4vw;
+        margin-top: 5%;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 1500px) {
+    .concrete_delivery {
+        height: 185vh;
+    }
+    .concrete_delivery_txt {
+        font-size: 4vw;
+    }
+    .delivery_card {
+        height: 570px;
+    }
+    .delivery_cards {
+        height: 1900px;
+    }
+}
+@media screen and (max-width: 400px) and (max-height: 1500px) {
+    .concrete_delivery {
+        height: 150vh;
+    }
+    .delivery_card {
+        height: 450px;
+    }
+    .delivery_cards {
+        height: 1530px;
+    }
+}
+@media screen and (max-width: 2000px) and (min-width: 1601px)  and (max-height: 1400px) {
+    .concrete_delivery {
+        height: 95vh;
+    }
+}
+@media screen and (max-width: 700px) and (max-height: 1400px) {
+    .concrete_delivery {
+        height: 225vh;
+    }
+}
+@media screen and (max-width: 600px) and (max-height: 1400px) {
+    .concrete_delivery {
+        height: 225vh;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 1400px) {
+    .concrete_delivery {
+        height: 200vh;
+    }
+}
+@media screen and (max-width: 400px) and (max-height: 1400px) {
+    .concrete_delivery {
+        height: 160vh;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 701px) and (max-height: 1350px) {
+    .concrete_delivery {
+        height: 150vh;
+    }
+}
+@media screen and (max-width: 600px) and (max-height: 1350px) {
+    .concrete_delivery {
+        height: 235vh;
+    }
+}
+@media screen and (max-width: 600px) and (min-width: 501px) and (max-height: 1300px) {
+    .concrete_delivery {
+        height: 245vh;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 1300px) {
+    .concrete_delivery {
+        height: 215vh;
+    }
+}
+@media screen and (max-width: 400px) and (max-height: 1300px) {
+    .concrete_delivery {
+        height: 170vh;
+    }
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1601px) and (max-height: 1200px) {
+    .concrete_delivery {
+        height: 110vh;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1001px) and (max-height: 1200px) {
+    .concrete_delivery {
+        height: 95vh;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 1200px) {
+    .concrete_delivery {
+        height: 160vh;
+    }
+}
+@media screen and (max-width: 700px) and (max-height: 1200px) {
+    .concrete_delivery {
+        height: 245vh;
+    }
+}
+@media screen and (max-width: 600px) and (max-height: 1200px) {
+    .concrete_delivery {
+        height: 260vh;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 1200px) {
+    .concrete_delivery {
+        height: 225vh;
+    }
+}
+@media screen and (max-width: 400px) and (max-height: 1200px) {
+    .concrete_delivery {
+        height: 185vh;
+    }
+}
+
+@media screen and (max-width: 1600px) and (max-height: 1100px) {
+    .concrete_delivery {
+        height: 105vh;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 1100px) {
+    .concrete_delivery {
+        height: 175vh;
+    }
+}
+@media screen and (max-width: 700px) and (max-height: 1100px) {
+    .concrete_delivery {
+        height: 265vh;
+    }
+}
+@media screen and (max-width: 600px) and (max-height: 1100px) {
+    .concrete_delivery {
+        height: 280vh;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 1100px) {
+    .concrete_delivery {
+        height: 245vh;
+    }
+}
+@media screen and (max-width: 400px) and (max-height: 1100px) {
+    .concrete_delivery {
+        height: 200vh;
+    }
+}
+@media screen and (max-width: 700px) and (max-height: 1050px) {
+    .concrete_delivery {
+        height: 275vh;
+    }
+}
+@media screen and (max-width: 600px) and (max-height: 1050px) {
+    .concrete_delivery {
+        height: 295vh;
+    }
+}
+
+@media screen and (max-width: 500px) and (max-height: 1050px) {
+    .concrete_delivery {
+        height: 260vh;
+    }
+}
+@media screen and (max-width: 400px) and (max-height: 1050px) {
+    .concrete_delivery {
+        height: 210vh;
+    }
+}
+
 @media screen and (min-width: 1850px) and (max-width: 2000px) and (max-height: 1000px) {
     .concrete_delivery {
         height: 130vh;
@@ -253,10 +784,10 @@ sup {
         font-size: 1.5vw;
     }
     .delivery_cards {
-        height: 400px;
+        height: 475px;
     }
     .concrete_delivery {
-        height: 100vh;
+        height: 110vh;
     }
 }
 @media screen and (max-width: 1200px) and (max-height: 1000px) {
@@ -282,7 +813,7 @@ sup {
         font-size: 1.5vw;
     }
     .concrete_delivery {
-        height: 90vh;
+        height: 110vh;
     }
     .meters_text {
         font-size: 2.3vw;
@@ -430,9 +961,6 @@ sup {
 }
 
 @media screen and (max-width: 600px) and (max-height: 1000px) {
-    .concrete_delivery {
-        height: 130vh;
-    }
     .delivery_cards {
         height: 800;
     }
@@ -617,7 +1145,7 @@ sup {
         height: 180vh;
     }
 }
-@media screen and (min-width: 1900px) and (max-width: 2000px) and (min-height: 900px) {
+@media screen and (min-width: 1900px) and (max-width: 2000px) and (min-height: 900px) and (max-height: 1000px){
     .delivery_cards {
         width: 65%;
         margin: 0 auto;
@@ -824,6 +1352,9 @@ sup {
         display: flex;
         text-align: center;
         justify-content: space-between;
+    }
+    .delivery_card {
+        height: 400px;
     }
 }
 @media screen and (max-width: 1000px) and (max-height: 700px) {
