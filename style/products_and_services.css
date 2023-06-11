@@ -1088,3 +1088,121 @@
         width: 45vw;
     }
 }
+
+@media screen and (max-width: 1400px) and (max-height: 450px) {
+    .products_and_services {
+        height: 335vh;
+    }
+    .products_and_services_container {
+        height: 335vh;
+    }
+}
+@media screen and (max-width: 500px) and (max-height: 450px) {
+    .products_and_services {
+        height: 305vh;
+    }
+    .products_and_services_container {
+        height: 305vh;
+    }
+}
+@media screen and (max-width: 450px) and (max-height: 450px) {
+    .products_and_services {
+        height: 280vh;
+    }
+    .products_and_services_container {
+        height: 280vh;
+    }
+}
+@media screen and (max-width: 350px) and (max-height: 450px) {
+    .products_and_services {
+        height: 260vh;
+    }
+    .products_and_services_container {
+        height: 260vh;
+    }
+}
+
+@media screen and (max-width: 1400px) and (max-height: 400px) {
+    .products_and_services {
+        height: 375vh;
+    }
+    .products_and_services_container {
+        height: 375vh;
+    }
+}
+@media screen and (max-width: 800px) and (max-height: 400px) {
+    .products_and_services {
+        height: 355vh;
+    }
+    .products_and_services_container {
+        height: 355vh;
+    }
+}
+@media screen and (max-width: 450px) and (max-height: 400px) {
+    .products_and_services {
+        height: 315vh;
+    }
+    .products_and_services_container {
+        height: 315vh;
+    }
+}
+@media screen and (max-width: 350px) and (max-height: 400px) {
+    .products_and_services {
+        height: 285vh;
+    }
+    .products_and_services_container {
+        height: 285vh;
+    }
+}
+@media screen and (max-width: 1400px) and (max-height: 350px) {
+    .price {
+        margin-bottom: 25vh;
+    }
+    .products_and_services_button {
+        height: 13vh;
+        margin-bottom: 6vh;
+    }
+    .products_and_services {
+        height: 1400px;
+    }
+    .products_and_services_container {
+        height: 1400px;
+    }
+    
+}
+@media screen and (max-width: 1000px) and (max-height: 350px) {
+    .products_and_services {
+        height: 1500px;
+    }
+    .products_and_services_container {
+        height: 1500px;
+    }
+    
+}
+@media screen and (max-width: 800px) and (max-height: 350px) {
+    .products_and_services {
+        height: 1400px;
+    }
+    .products_and_services_container {
+        height: 1400px;
+    }
+    
+}
+@media screen and (max-width: 450px) and (max-height: 350px) {
+    .products_and_services {
+        height: 1250px;
+    }
+    .products_and_services_container {
+        height: 1250px;
+    }
+    
+}
+@media screen and (max-width: 350px) and (max-height: 350px) {
+    .products_and_services {
+        height: 1150px;
+    }
+    .products_and_services_container {
+        height: 1150px;
+    }
+    
+}

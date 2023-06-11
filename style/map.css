@@ -52,4 +52,9 @@
         font-size: 16px;
     }
 }
+@media screen and (max-height: 350px) {
+    .map_container {
+        height: 80vh;
+    }
+}
 

@@ -15,84 +15,86 @@
     <title>СМДВ</title>
 </head>
 <body>
-    <div class="container">
-        <a href="../index.html"><div class="back_button"></div></a>
-        <div class="header">
-            <div class="header_text">ЗАКАЗ ПРОДУКЦИИ</div>
-            <div class="container_block">
-                <div class="block_1">
-                    <div class="block_1_1">
-                        <div class="order_title">Марка бетона</div>
-                        <select name="" id="sel_1">
-                            <option selected disabled></option>
-                            <option value="value1">СУЛЬФАТОСТОЙКИЙ БЕТОН М 350</option>
-                            <option value="value2">Option 2</option>
-                            <option value="value3">Option 3</option>
-                        </select>
+    <form action="">
+        <div class="container">
+            <a href="../index.html"><div class="back_button"></div></a>
+            <div class="header">
+                <div class="header_text">ЗАКАЗ ПРОДУКЦИИ</div>
+                <div class="container_block">
+                    <div class="block_1">
+                        <div class="block_1_1">
+                            <div class="order_title">Марка бетона</div>
+                            <select name="" id="sel_1">
+                                <option selected disabled></option>
+                                <option value="value1">СУЛЬФАТОСТОЙКИЙ БЕТОН М 350</option>
+                                <option value="value2">Option 2</option>
+                                <option value="value3">Option 3</option>
+                            </select>
+                        </div>
+                        <div class="block_1_2">
+                            <div class="order_title">Кол-во кубов (м3)</div>
+                            <input required type="text" placeholder="Введите объем" class="block_1_2_input">
+                        </div>
                     </div>
-                    <div class="block_1_2">
-                        <div class="order_title">Кол-во кубов (м3)</div>
-                        <input type="text" placeholder="Введите объем" class="block_1_2_input">
-                    </div>
-                </div>
-                <div class="order_block">
-                    <div class="order_title">Доставка - <span class="ans_delivery">нет</span></div>
-                    <div class="order_delivery_button">
-                        <button class="add_delivery">ДОБАВИТЬ ДОСТАВКУ</button>
-                    </div>
-                    <div class="order_delivery">
-                        <div class="order_delivery_container">
-                            <div class="order_title_d">Укажите дату доставки</div>
-                            <input type="text" placeholder="Коментарий" class="input_order_delivery">
-
-                            <div class="order_title_d">Укажите, в какой район города необходимо доставить груз</div>
-                            <div class="delivery_adress_block">
-                                <div class="delivery_adress_button">
-                                    <button>Проспект 100 лет Владивостоку - Ботанический сад</button>
+                    <div class="order_block">
+                        <div class="order_title">Доставка - <span class="ans_delivery">нет</span></div>
+                        <div class="order_delivery_button">
+                            <div class="add_delivery">ДОБАВИТЬ ДОСТАВКУ</div>
+                        </div>
+                        <div class="order_delivery">
+                            <div class="order_delivery_container">
+                                <div class="order_title_d">Укажите дату доставки</div>
+                                <input required type="text" placeholder="Коментарий" class="input_order_delivery">
+    
+                                <div class="order_title_d">Укажите, в какой район города необходимо доставить груз</div>
+                                <div class="delivery_adress_block">
+                                    <div class="delivery_adress_button">
+                                        <div class="delivery_adress_btn btn_1">Проспект 100 лет Владивостоку - Ботанический сад</div>
+                                    </div>
+                                    <div class="delivery_adress_button">
+                                        <div class="delivery_adress_btn btn_2">Первая речка, Баляева, Луговая, Борисенко, Центр, Эгершельд, Чуркин, Тихая, Шамора, Угольная</div>
+                                    </div>
+                                    <div class="delivery_adress_button">
+                                        <div class="delivery_adress_btn btn_3">Борисенко, Емар, о.Русский, за с.Прохладное, Соловей-ключ, Эгершельд, Чуркин</div>
+                                    </div>
                                 </div>
-                                <div class="delivery_adress_button">
-                                    <button>Первая речка, Баляева, Луговая, Борисенко, Центр, Эгершельд, Чуркин, Тихая, Шамора, Угольная</button>
-                                </div>
-                                <div class="delivery_adress_button">
-                                    <button>Борисенко, Емар, о.Русский, за с.Прохладное, Соловей-ключ, Эгершельд, Чуркин</button>
-                                </div>
+    
+                                <div class="order_title_d">Уточните адрес</div>
+                                <input required type="text" placeholder="Укажите адрес" class="input_order_delivery">
                             </div>
-
-                            <div class="order_title_d">Уточните адрес</div>
-                            <input type="text" placeholder="Укажите адрес" class="input_order_delivery">
                         </div>
-                    </div>
-                    
-                    <div class="order_title">Организация</div>
-                    <input type="text" placeholder="Введите наименование" class="input_order">
-
-                    <div class="order_title">Контактное лицо</div>
-                    <input type="text" placeholder="Введите ФИО" class="input_order">
-
-                    <div class="block_2">
-                        <div class="block_2_1">
-                            <div class="order_title">Электронная почта</div>
-                            <input type="text" placeholder="Введите почту" class="input_order_contacts">
+                        
+                        <div class="order_title">Организация</div>
+                        <input required type="text" placeholder="Введите наименование" class="input_order">
+    
+                        <div class="order_title">Контактное лицо</div>
+                        <input required type="text" placeholder="Введите ФИО" class="input_order">
+    
+                        <div class="block_2">
+                            <div class="block_2_1">
+                                <div class="order_title">Электронная почта</div>
+                                <input required type="text" placeholder="Введите почту" class="input_order_contacts">
+                            </div>
+                            <div class="block_2_2">
+                                <div class="order_title">Телефон</div>
+                                <input required type="text" placeholder="Введите телефон" class="input_order_contacts">
+                            </div>
                         </div>
-                        <div class="block_2_2">
-                            <div class="order_title">Телефон</div>
-                            <input type="text" placeholder="Введите телефон" class="input_order_contacts">
+    
+                        <div class="block_3">
+                            <div class="order_title">Коментарий (не обязательно)</div>
+                            <textarea name="" id="" rows="6"></textarea>
+                            <div class="block_3_text">Нажав на кнопку, вы отправите заявку. Наш менеджер свяжется с вами для уточнения заказа.</div>
                         </div>
-                    </div>
-
-                    <div class="block_3">
-                        <div class="order_title">Коментарий (не обязательно)</div>
-                        <textarea name="" id="" rows="6"></textarea>
-                        <div class="block_3_text">Нажав на кнопку, вы отправите заявку. Наш менеджер свяжется с вами для уточнения заказа.</div>
-                    </div>
-
-                    <div class="button-order_send">
-                        <button>ОТПРАВИТЬ ЗАКАЗ!</button>
+    
+                        <div class="button-order_send">
+                            <button type="submit">ОТПРАВИТЬ ЗАКАЗ!</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
     <script src="order.js"></script>
 </body>
 </html>

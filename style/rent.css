@@ -979,11 +979,145 @@
         height: 160vh;
     }
 }
-/* @media (max-width: 1400px) and (max-height: 450px) {
-    .rent {
-        height: 160vh;
+
+@media (max-width: 900px) and (max-height: 450px) {
+    .rent_block_1 {
+        height: 150px;
+    }
+    .rent_block_2_1 {
+        height: 150px;
+    }
+    .rent_block_2_2 {
+        height: 150px;
+    }
+}
+@media (max-width: 750px) and (max-height: 450px) {
+    .rent_button {
+        margin-top: 13vh;
+        width: 41vw;
+    }
+    .rent_white_spot {
+        margin-top: 50px;
     }
     .rent_main {
-        height: 160vh;
+        height: 800px;
     }
-} */
+    .rent {
+        height: 800px;
+    }
+}
+@media (max-width: 700px) and (max-height: 450px) {
+    sup {
+        font-size: 2vw;
+    }
+    .rent_white_spot span {
+        font-size: 2.5vw;
+    }
+    .rent_text_1 {
+        font-size: 2.5vw;
+    }
+    .rent_text_2 {
+        margin-left: 0;
+        font-size: 2.5vw;
+    }
+}
+@media (max-width: 700px) and (max-height: 450px) {
+    .rent_button {
+        width: 60vw;
+    }
+}
+@media (max-width: 550px) and (max-height: 450px) {
+    .rent_button {
+        width: 330px;
+    }
+    .rent_block_1 {
+        width: 132px;
+    }
+    .rent_block_2_1 {
+        width: 132px;
+    }
+    .rent_block_2_2 {
+        width: 132px;
+    }
+    .rent_price {
+        font-size: 18px;
+    }
+}
+@media (max-width: 400px) and (max-height: 450px) {
+    .rent_white_spot {
+        width: 95vw;
+    }
+    .rent_white_spot span {
+        font-size: 3.5vw;
+    }
+    .rent_text {
+        width: 95vw;
+    }
+    .rent_text_1 {
+        font-size: 4vw;
+    }
+    .rent_text_2 {
+        margin-left: 0;
+        font-size: 4vw;
+    }
+    .rent {
+        height: 850px;
+    }
+    .rent_main {
+        height: 850px;
+    }
+}
+@media (max-width: 330px) and (max-height: 450px) {
+    .rent_button {
+        width: 280px;
+    }
+    .rent_block_1 {
+        width: 110px;
+    }
+    .rent_block_2_1 {
+        width: 110px;
+    }
+    .rent_block_2_2 {
+        width: 110px;
+    }
+}
+
+@media (max-width: 1400px) and (max-height: 400px) {
+    sup {
+        font-size: 1.5vw;
+    }
+    .rent {
+        height: 800px;
+    }
+    .rent_main {
+        height: 800px;
+    }
+    .rent_block_1 {
+        height: 140px;
+    }
+    .rent_block_2_1 {
+        height: 140px;
+    }
+    .rent_block_2_2 {
+        height: 140px;
+    }
+}
+@media (max-width: 1400px) and (max-height: 400px)  {
+    .rent_volume {
+        padding-top: 11vh;
+    }
+    sup {
+        font-size: 1.2vw;
+    }
+    .rent_heading {
+        margin-top: 20px;
+    }
+    .rent_white_spot  {
+        margin-top: 80px;
+    }
+}
+@media (max-width: 800px) and (max-height: 320px) {
+    .rent_white_spot {
+        margin-top: 150px;
+    }
+}

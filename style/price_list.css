@@ -1,6 +1,6 @@
 .price_list {
     width: 100%;
-    height: 77vh;
+    height: 750px;
     background-image: url(../img/price_bg.png);
     background-position: center center;  
     background-repeat: no-repeat;
@@ -353,5 +353,57 @@
     }
     .tabel_column_claydite_concrete {
         font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 1000px) and (max-height: 900px){
+    .price_list {
+        height: 700px;
+    }
+}
+@media screen and (max-width: 600px) and (max-height: 900px){
+    .price_list {
+        height: 650px;
+    }
+}
+@media screen and (max-width: 1400px) and (max-height: 800px){
+    .price_list {
+        height: 680px;
+    }
+}
+@media screen and (max-width: 1000px) and (max-height: 800px){
+    .price_list {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1400px) and (max-height: 700px){
+    .price_list {
+        height: 580px;
+    }
+    .chapters {
+        height: 40px;
+    }
+    .tabel_names {
+        height: 42px;
+    }
+    .tabel_columns {
+        height: 210px;
+    }
+    .tabel_columns_concrete {
+        height: 210px;
+    }
+    .tabel_column_concrete {
+        height: 42px;
+    }
+    .tabel_row_cell_button {
+        height: 22px;
+    }
+    .download_button {
+        margin-top: 45px;
+        height: 45px;
+    }
+    .tabel {
+        margin-top: 20px;
     }
 }

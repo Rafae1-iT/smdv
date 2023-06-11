@@ -149,3 +149,30 @@
         font-size: 2.5vw;
     }
 }
+
+@media screen and (max-width: 1400px) and (max-height: 500px) {
+    .inert_materials_tabel {
+        height: 245px;
+    }
+    .inert_materials {
+        height: 350px;
+    }
+    .inert_materials_chapers {
+        height: 35px;
+    }
+    .inert_materials_chapers_container {
+        height: 35px;
+    }
+    .inert_materials_content {
+        height: 210px;
+    }
+    .inert_materials_tabel_line {
+        height: 30px;
+    }
+    .inert_materials_tabel_line_container {
+        height: 30px;
+    }
+    .inert_materials_tabel {
+        margin-top: 30px;
+    }
+}
