@@ -1121,3 +1121,73 @@
         margin-top: 150px;
     }
 }
+@media screen and (min-width: 2001px) and (min-height: 500px) {
+    .rent {
+        height: 1225px;
+    }
+    .rent_main {
+        height: 1225px;
+    }
+    .rent_heading {
+        font-size: 45px;
+        margin-top: 50px;
+    }
+    .rent_button {
+        height: 500px;
+        margin-left: 55vw;
+        margin-top: 55px;
+    }
+    .rent_block_1 {
+        width: 200px;
+        height: 225px;
+        margin-top: 100px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    .rent_block_2_1 {
+        width: 200px;
+        height: 225px;
+        margin-top: 3vh;
+    }
+    .rent_block_2_2 {
+        width: 200px;
+        height: 225px;
+        margin-top: 3vh;
+    }
+    .rent_volume {
+        padding-top: 50px;
+        font-size: 45px;
+    }
+    .rent_price {
+        margin-top: 10px;
+        font-size: 26px;
+    }
+    .rent_white_spot {
+        width: 940px;
+        height: 115px;
+        margin-top: 80px;
+    }
+    .rent_white_spot span {
+        font-size: 30px;
+    }
+    .rent_white_spot span sup {
+        font-size: 25px;
+    }
+    .rent_white_spot span span {
+        font-size: 22px;
+        margin-top: 15px;
+    }
+    .rent_text {
+        width: 545px;
+        height: 215px;
+        margin-left: 460px;
+    }
+    .rent_text_1 {
+        font-size: 24px;
+    }
+    .rent_text_2 {
+        margin-top: 15px;
+        font-size: 26px;
+        margin-left: 300px;
+    }
+}

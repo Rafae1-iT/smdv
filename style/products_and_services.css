@@ -1206,3 +1206,60 @@
     }
     
 }
+@media screen and (min-width: 2001px) and (min-height: 500px) {
+    .products_and_services {
+        height: 1595px;
+    }
+    .products_and_services_container {
+        height: 1595px;
+        width: 1000px;
+    }
+    #indent_width {
+        margin-right: 45px;
+    }
+    .products_and_services_heading {
+        font-size: 45px;
+    }
+    .cards {
+        margin-top: 70px;
+    }
+    .card {
+        height: 365px;
+        width: 302px;
+    }
+    .card_heading {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    #card_info_1 {
+        margin-bottom: 10px;
+    }
+    .card_info {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .type_name {
+        font-size: 20px;
+    }
+    .price {
+        margin-bottom: 80px;
+        font-size: 22px;
+    }
+    .products_and_services_button {
+        height: 40px;
+        margin-bottom: 20px;
+    }
+    .products_and_services_button button {
+        font-size: 14px;
+    }
+    .products_and_services_text {
+        margin-top: 40px;
+        font-size: 22px;
+    }
+    .ul_margin {
+        margin-top: 50px;
+    }
+    .list {
+        font-size: 17px;
+    }
+}

@@ -57,4 +57,19 @@
         height: 80vh;
     }
 }
-
+@media screen and (min-width: 2001px) and (min-height: 500px) {
+    .map_container {
+        height: 810px;
+    }
+    .map_heading {
+        font-size: 45px;
+        margin-top: 60px;
+    }
+    .map_text {
+        margin-top: 70px;
+        font-size: 24px;
+    }
+    #map {
+        margin-top: 80px;
+    }
+}

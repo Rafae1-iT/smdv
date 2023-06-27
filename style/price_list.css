@@ -211,6 +211,19 @@
     position: absolute;
     display: none;
 }
+.tabel_column_fbs {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 6vh;
+    border-bottom: #E6E6E6 solid 3px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 0.85vw;
+}
 .tabel_column_claydite_concrete {
     display: flex;
     text-align: center;
@@ -322,6 +335,9 @@
     .tabel_column_claydite_concrete {
         font-size: 1.5vw;
     }
+    .tabel_column_fbs {
+        font-size: 1.5vw;
+    }
 }
 @media screen and (max-width: 500px) {
     .tabel {
@@ -352,6 +368,9 @@
         font-size: 2vw;
     }
     .tabel_column_claydite_concrete {
+        font-size: 2vw;
+    }
+    .tabel_column_fbs {
         font-size: 2vw;
     }
 }
@@ -405,5 +424,96 @@
     }
     .tabel {
         margin-top: 20px;
+    }
+}
+@media screen and (min-width: 2001px) and (min-height: 500px) {
+    .price_list_heading {
+        font-size: 45px;
+    }
+    .price_list_txt {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .tabel {
+        width: 1200px;
+        margin-top: 3vh;
+    }
+    .tabel {
+        margin-top: 40px;
+    }
+    .chapters {
+        height: 55px;
+    }
+    .chapter {
+        font-size: 18px;
+    }
+    .tabel_names {
+        height: 70px;
+    }
+    .names_tabel {
+        font-size: 18px;
+    }
+    .tabel_columns {
+        height: 240px;
+    }
+    .tabel_columns_concrete {
+        height: 240px;
+    }
+    .tabel_column_concrete {
+        height: 40px;
+        font-size: 18px;
+    }
+    .tabel_row_cell_button {
+        height: 30px;
+    }
+    .tabel_row_cell_button button {
+        font-size: 15px;
+    }
+    .tabel_columns_polystyrene {
+        height: 240px;
+    }
+    .tabel_column_polystyrene {
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .tabel_columns_solution {
+        height: 240px;
+    }
+    .tabel_column_solution {
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .tabel_columns_vermiculite {
+        height: 240px;
+    }
+    .tabel_column_vermiculite {
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .tabel_columns_claydite_concrete {
+        height: 240px;
+    }
+    .tabel_column_claydite_concrete {
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .tabel_columns_fbs {
+        height: 240px;
+    }
+    .tabel_column_fbs {
+        height: 40px;
+        font-size: 18px;
+    }
+    .download_button {
+        width: 360px;
+        margin-top: 50px;
+        height: 55px;
+    }
+    .download_button button {
+        font-size: 22px;
     }
 }

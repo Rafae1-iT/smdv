@@ -1,8 +1,14 @@
-body {
-    /* background: linear-gradient(180deg, #FFFFFF 0%, #FFFBF2 100%); */
+/* body {
     margin: 0;
     width: 100%;
+    text-align: center;
+} */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
+
 .back_button {
 
     width: 60px;
@@ -20,7 +26,6 @@ body {
     background: linear-gradient(180deg, #FFFFFF 0%, #FFFBF2 100%);
     box-shadow: 0px 13px 15px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
-    margin-top: 20px;
 }
 .header {
     margin: 0 auto;
@@ -238,6 +243,61 @@ textarea {
     color: #FFFFFF;;
     cursor: pointer;
 }
+.calculate_cost_block {
+    width: 100%;
+    margin-top: 20px;
+
+    /* background: linear-gradient(180deg, #FFFFFF 0%, #FFFBF2 100%);
+    box-shadow: 0px 13px 15px rgba(0, 0, 0, 0.15); */
+    border-radius: 16px;
+    border: solid 1px gray;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.calculate_cost_header {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.calculate_cost {
+    width: 100%;
+}
+.calculate_cost_price {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.button_calculate_price {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button_calculate_price div {
+    width: 250px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    background: linear-gradient(180deg, #FED852 0%, #FFB32D 79.53%);
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 15%);
+    border-radius: 26px;
+    border-bottom: 3px solid #A27C43;
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    line-height: 40px;
+}
+
 @media screen and (max-width: 650px) {
     .container {
         width: 500px;
@@ -284,6 +344,12 @@ textarea {
     .order_delivery_container {
         width: 95%;
     }
+    .calculate_cost_header {
+        font-size: 12px;
+    }
+    .calculate_cost_price {
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 400px) {
     .delivery_adress_button {
@@ -303,5 +369,26 @@ textarea {
     }
     .add_delivery {
         font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 2001px) and (min-height: 1100px) {
+    .container {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width: 2001px) and (min-height: 1300px) {
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
     }
 }

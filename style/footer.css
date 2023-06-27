@@ -97,3 +97,10 @@ footer div {
         height: 35vh;
     }
 }
+@media screen and (min-width: 2001px) and (min-height: 500px) {
+    footer {
+        padding-top: 60px;
+        font-size: 26px;
+        height: 220px;
+    }
+}

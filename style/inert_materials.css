@@ -176,3 +176,46 @@
         margin-top: 30px;
     }
 }
+@media screen and (min-width: 2001px) and (min-height: 500px) {
+    .inert_materials {
+        height: 700px;
+    }
+    .inert_materials_heading {
+        font-size: 45px;
+        margin-top: 80px;
+    }
+    .inert_materials_tabel {
+        width: 840px;
+        height: 400px;
+        margin-top: 60px;
+    }
+    .inert_materials_chapers {
+        height: 50px;
+    }
+    .inert_materials_chapers_container {
+        height: 50px;
+        line-height: 50px;
+    }
+    .inert_materials_name {
+        font-size: 22px;
+    }
+    .inert_materials_price {
+        font-size: 22px;
+    }
+    .inert_materials_content {
+        height: 350px;
+    }
+    .inert_materials_tabel_line {
+        height: 50px;
+    }
+    .inert_materials_tabel_line_container {
+        height: 50px;
+        line-height: 50px;
+    }
+    .inert_name {
+        font-size: 22px;
+    }
+    .inert_price {
+        font-size: 22px;
+    }
+}
